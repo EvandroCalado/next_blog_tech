@@ -1,0 +1,210 @@
+{
+  "data": {
+    "setting": {
+      "data": {
+        "attributes": {
+          "blogName": "Evandro Calado",
+          "blogDescription": "Blog sobre alguma coisa",
+          "footer": "<p>Feito com 💕 por <a href=\"https://github.com/EvandroCalado\">Evandro Calado</a></p>",
+          "logo": {
+            "data": {
+              "attributes": {
+                "name": "110628201.jpeg",
+                "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
+              }
+            }
+          },
+          "menuLink": [
+            {
+              "id": "1",
+              "link": "#home",
+              "text": "home",
+              "newTab": false
+            },
+            {
+              "id": "2",
+              "link": "#posts",
+              "text": "posts",
+              "newTab": false
+            }
+          ]
+        }
+      }
+    },
+    "posts": {
+      "data": [
+        {
+          "id": "3",
+          "attributes": {
+            "author": {
+              "data": {
+                "attributes": {
+                  "displayName": "Evandro Calado",
+                  "slug": "evandro-calado"
+                }
+              }
+            },
+            "title": "Desenvolvimento de aplicativos web escaláveis com Next.js",
+            "slug": "desenvolvimento-de-aplicativos-web-escalaveis-com-next-js",
+            "excerpt": "Se você está procurando um framework poderoso para desenvolver aplicativos web escaláveis, o Next.js pode ser a escolha certa para você. O Next.js é um framework baseado em React que oferece recursos avançados, como renderização no lado do servidor e roteamento dinâmico, para ajudá-lo a criar aplicativos web modernos e de alto desempenho. Neste post, exploraremos as principais características do Next.js e veremos como usá-lo para construir aplicativos web escaláveis.",
+            "content": "<h2>O que é o Next.js?</h2><p>O Next.js é um framework de desenvolvimento web baseado em React que foi criado pela equipe da Vercel. Ele oferece muitos recursos e funcionalidades para tornar a criação de aplicativos web mais fácil e rápida. Alguns dos recursos mais notáveis   do Next.js incluem:</p><ul><li>Renderização no lado do servidor (SSR) e na renderização do lado do cliente (CSR)</li><li>Roteamento dinâmico</li><li>Pré-renderização estática e dinâmica</li><li>Suporte a CSS Modules</li><li>Suporte a API externas</li></ul><p>Esses recursos tornam o Next.js uma escolha popular para a criação de aplicativos web escaláveis e de alto desempenho.</p><hr><figure class=\"image\"><a href=\"https://nextjs.org/\"><img src=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/next_ed0a265ac1.jpg\" alt=\"next example\" srcset=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/thumbnail_next_ed0a265ac1.jpg 245w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/small_next_ed0a265ac1.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/medium_next_ed0a265ac1.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/large_next_ed0a265ac1.jpg 1000w,\" sizes=\"100vw\"></a><figcaption>Next Js Example</figcaption></figure><h2>Como começar com o Next.js</h2><p>Para começar a usar o <a href=\"https://nextjs.org/\">Next.js</a>, você precisará instalá-lo. A maneira mais fácil de fazer isso é usando o <a href=\"https://nodejs.org/en\">Node.js</a> e o gerenciador de pacotes NPM. Execute o seguinte comando no terminal para instalar o Next.js:</p><pre><code class=\"language-javascript\">npm install next react react-dom\n</code></pre><p>Depois de instalado, você pode criar um novo aplicativo Next.js usando o comando create-next-app. Execute o seguinte comando no terminal para criar um novo aplicativo Next.js:</p><pre><code class=\"language-javascript\">npx create-next-app my-app\n</code></pre><p>Isso criará um novo aplicativo Next.js em uma pasta chamada my-app. Você pode entrar na pasta e iniciar o servidor de desenvolvimento usando os seguintes comandos:</p><pre><code class=\"language-javascript\">cd my-app\nnpm run dev\n</code></pre><h2>Páginas estáticas e dinâmicas</h2><p>O Next.js oferece suporte a dois tipos de páginas: páginas estáticas e páginas dinâmicas.</p><hr><figure class=\"image image-style-side\"><img src=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/next_ed0a265ac1.jpg\" alt=\"next example\" srcset=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/thumbnail_next_ed0a265ac1.jpg 245w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/small_next_ed0a265ac1.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/medium_next_ed0a265ac1.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/large_next_ed0a265ac1.jpg 1000w,\" sizes=\"100vw\"><figcaption>Next component</figcaption></figure><h3>Páginas estáticas</h3><p style=\"margin-left:0px;\">As páginas estáticas são páginas que não mudam, independentemente de quem as solicita. Elas são pré-renderizadas no momento da construção e servidas como arquivos HTML estáticos para cada solicitação. Isso pode ajudar a melhorar o desempenho do aplicativo e reduzir o tempo de carregamento.</p><p>Para criar uma página estática no Next.js, crie um arquivo <strong>.js</strong> ou <strong>.tsx</strong> na pasta <strong>pages</strong>. Por exemplo, para criar uma página estática chamada <strong>about</strong>, crie um arquivo chamado <strong>about.js</strong> ou <strong>about.tsx</strong> na pasta pages. Em seguida, adicione o seguinte código:</p><p>&nbsp;</p><pre><code class=\"language-javascript\">function About() {\n  return &lt;h1&gt;About&lt;/h1&gt;\n}\n\nexport default About\n</code></pre><p>Isso criará uma página estática com o título \"About\".</p><h3>Páginas dinâmicas</h3><p>As páginas dinâmicas são páginas que são renderizadas no servidor com base em dados específicos da solicitação. Por exemplo, uma página de perfil de usuário pode ser uma página dinâmica que é renderizada com base no nome de usuário da solicitação.</p><p><br>&nbsp;</p>",
+            "allowComments": true,
+            "createdAt": "2023-03-27T17:22:39.749Z",
+            "cover": {
+              "data": {
+                "attributes": {
+                  "name": "twitter-card.png",
+                  "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
+                }
+              }
+            },
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Get static props",
+                    "slug": "get-static-props"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Serve side rendering",
+                    "slug": "serve-side-rendering"
+                  }
+                }
+              ]
+            },
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Next",
+                    "slug": "next"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "2",
+          "attributes": {
+            "author": {
+              "data": {
+                "attributes": {
+                  "displayName": "Elaynne Cristina",
+                  "slug": "elaynne-cristina"
+                }
+              }
+            },
+            "title": "O que é Node.js?",
+            "slug": "o-que-e-node-js",
+            "excerpt": "Node.js é uma plataforma de desenvolvimento de aplicações web que utiliza JavaScript do lado do servidor. Ele foi criado em 2009 por Ryan Dahl e desde então se tornou uma das tecnologias mais populares e utilizadas em desenvolvimento web.",
+            "content": "<h1>O que é o Node Js?</h1><p>O Node.js é uma plataforma de desenvolvimento em JavaScript que permite a criação de aplicações de alto desempenho e escaláveis do lado do servidor. O Node.js é construído em cima do motor V8 do Google Chrome e é executado em uma máquina virtual do JavaScript que permite a execução do código JavaScript fora do navegador. O Node.js é utilizado por muitas empresas como Netflix, Walmart, PayPal e LinkedIn para construir aplicativos de alta performance.</p><figure class=\"image\"><img src=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679626497/pexels_realtoughcandycom_11035380_d3c431dd33.jpg\" alt=\"Node Logo\" srcset=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679626496/thumbnail_pexels_realtoughcandycom_11035380_d3c431dd33.jpg 234w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679626497/small_pexels_realtoughcandycom_11035380_d3c431dd33.jpg 500w,\" sizes=\"100vw\"><figcaption>Uma imagem no centro</figcaption></figure><h2>Instalação e configuração</h2><p>Para começar a utilizar o Node.js é necessário fazer o download e instalação do software a partir do site oficial. O Node.js é compatível com Windows, Mac e Linux e existem versões para cada um dos sistemas operacionais.</p><p>Para verificar se o Node.js está instalado corretamente no seu sistema, abra o terminal e digite o seguinte comando:</p><pre><code class=\"language-javascript\">node -v\n</code></pre><p>Este comando irá exibir a versão do Node.js que está instalada no seu sistema.</p><p>Criando um servidor HTTP</p><p>Uma das principais funcionalidades do Node.js é permitir a criação de servidores HTTP. Para criar um servidor HTTP utilizando o Node.js, é necessário importar o módulo http e utilizar a função createServer() para criar um servidor. O código abaixo cria um servidor HTTP simples que exibe a mensagem \"Hello World\" no navegador quando uma requisição é feita para o servidor:</p><pre><code class=\"language-javascript\">const http = require('http');\n\nconst server = http.createServer((req, res) =&gt; {\n  res.writeHead(200, { 'Content-Type': 'text/plain' });\n  res.end('Hello World\\n');\n});\n\nserver.listen(8080, () =&gt; {\n  console.log('Server running at http://localhost:8080/');\n});\n</code></pre><h2>Executando código assíncrono</h2><p style=\"margin-left:0px;\">O Node.js é construído em cima do modelo de programação assíncrona, o que significa que muitas operações são executadas em segundo plano e não bloqueiam a execução do código principal. Isso permite que o Node.js execute tarefas de entrada e saída de forma eficiente e escalável.</p><p style=\"margin-left:0px;\">Um exemplo de código assíncrono em Node.js é a leitura de um arquivo. O código abaixo lê o arquivo <strong>file.txt</strong> e exibe o seu conteúdo no console:</p><pre><code class=\"language-javascript\">const fs = require('fs');\n\nfs.readFile('file.txt', 'utf8', (err, data) =&gt; {\n  if (err) {\n    throw err;\n  }\n\n  console.log(data);\n});\n</code></pre><h2>Conclusão</h2><p>O Node.js é uma plataforma poderosa para desenvolvimento de aplicações do lado do servidor em JavaScript. Com o Node.js é possível criar servidores HTTP, executar código assíncrono de forma eficiente e escalável e integrar com outros sistemas de forma fácil e rápida. Com o Node.js, desenvolvedores podem criar aplicações de alto desempenho e escaláveis que são utilizadas por empresas em todo o mundo.</p>",
+            "allowComments": true,
+            "createdAt": "2023-03-24T02:59:15.231Z",
+            "cover": {
+              "data": {
+                "attributes": {
+                  "name": "pexels-realtoughcandycom-11035380.jpg",
+                  "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1679626497/pexels_realtoughcandycom_11035380_d3c431dd33.jpg"
+                }
+              }
+            },
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "api",
+                    "slug": "api"
+                  }
+                }
+              ]
+            },
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Node",
+                    "slug": "node"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Javascript",
+                    "slug": "javascript"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1",
+          "attributes": {
+            "author": {
+              "data": {
+                "attributes": {
+                  "displayName": "Evandro Calado",
+                  "slug": "evandro-calado"
+                }
+              }
+            },
+            "title": "Introdução ao React",
+            "slug": "introducao-ao-react",
+            "excerpt": "React é uma biblioteca JavaScript de código aberto, mantida pelo Facebook, que é amplamente usada no desenvolvimento de interfaces de usuário. Com sua arquitetura baseada em componentes, o React permite criar interfaces reutilizáveis e escaláveis   de forma eficiente. Neste texto, vamos explorar os principais conceitos e recursos do React, incluindo seus principais benefícios e alguns exemplos de código.",
+            "content": "<h1>React</h1><p><a href=\"https://pt-br.reactjs.org/\">React</a> é uma biblioteca <a href=\"https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript\">JavaScript</a> de código aberto, mantida pelo <a href=\"https://www.facebook.com/\">Facebook</a>, que é amplamente usada no desenvolvimento de interfaces de usuário. Com sua arquitetura baseada em componentes, o <a href=\"https://pt-br.reactjs.org/\">React</a> permite criar interfaces reutilizáveis e escaláveis   de forma eficiente. Neste texto, vamos explorar os principais conceitos e recursos do <a href=\"https://pt-br.reactjs.org/\">React</a>, incluindo seus principais benefícios e alguns exemplos de código.</p><figure class=\"image\"><img src=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679625771/pexels_realtoughcandycom_11035471_127960d6fa.jpg\" alt=\"React Logo\" srcset=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679625771/thumbnail_pexels_realtoughcandycom_11035471_127960d6fa.jpg 234w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679625771/small_pexels_realtoughcandycom_11035471_127960d6fa.jpg 500w,\" sizes=\"100vw\"><figcaption>Uma imagem no centro<a href=\"https://pt-br.reactjs.org/\">https://pt-br.reactjs.org/</a></figcaption></figure><h2>Conceitos Básicos do React</h2><h3>Componentes</h3><p>Componentes são o bloco fundamental do React. Eles podem ser pensados como pequenos pedaços de código que encapsulam uma parte da interface do usuário. Cada componente pode ter seu próprio estado, propriedades e métodos, o que torna o código mais modular e reutilizável. Os componentes podem ser compostos em hierarquias mais complexas para criar interfaces de usuário completas.</p><p>&nbsp;</p><hr><p>&nbsp;</p><p>Por exemplo, podemos criar um componente simples que renderiza um título em negrito:</p><pre><code class=\"language-javascript\">import React from 'react';\n\nfunction Title(props) {\n  return &lt;h1 style={{ fontWeight: 'bold' }}&gt;{props.text}&lt;/h1&gt;;\n}\n\nexport default Title;\n</code></pre><p>Neste exemplo, o componente Title recebe um objeto props que contém o texto do título e o renderiza em negrito usando o elemento h1.</p><h3>JSX</h3><p>O React utiliza uma extensão de sintaxe JavaScript chamada JSX para criar elementos de interface do usuário. O JSX permite que os desenvolvedores escrevam código<a href=\"https://developer.mozilla.org/pt-BR/docs/Web/HTML\"> HTML</a> semelhante em aparência ao <a href=\"https://developer.mozilla.org/pt-BR/docs/Web/HTML\">HTML</a> real dentro do JavaScript. O compilador do React transforma esse código JSX em código JavaScript padrão que pode ser interpretado pelo navegador.</p><p>Por exemplo, podemos criar um componente que renderiza uma lista de itens usando JSX:</p><pre><code class=\"language-javascript\">import React from 'react';\n\nfunction List(props) {\n  return (\n    &lt;ul&gt;\n      {props.items.map((item) =&gt; (\n        &lt;li key={item.id}&gt;{item.text}&lt;/li&gt;\n      ))}\n    &lt;/ul&gt;\n  );\n}\n\nexport default List;\n</code></pre><p>Neste exemplo, o componente List recebe um objeto props que contém uma matriz de itens a serem renderizados. O JSX é usado para criar uma lista de itens, onde cada item é representado por um elemento li.</p><p>&nbsp;</p><hr><p>&nbsp;</p><figure class=\"image\"><img src=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679626497/pexels_realtoughcandycom_11035380_d3c431dd33.jpg\" alt=\"Node Logo\" srcset=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679626496/thumbnail_pexels_realtoughcandycom_11035380_d3c431dd33.jpg 234w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679626497/small_pexels_realtoughcandycom_11035380_d3c431dd33.jpg 500w,\" sizes=\"100vw\"><figcaption>Uma imagem no centro</figcaption></figure><h3>Estado</h3><figure class=\"image image-style-side\"><img src=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679625771/pexels_realtoughcandycom_11035471_127960d6fa.jpg\" alt=\"React Logo\" srcset=\"https://res.cloudinary.com/dnhsdenji/image/upload/v1679625771/thumbnail_pexels_realtoughcandycom_11035471_127960d6fa.jpg 234w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679625771/small_pexels_realtoughcandycom_11035471_127960d6fa.jpg 500w,\" sizes=\"100vw\"><figcaption>Uma imagem a direita</figcaption></figure><p>O estado é uma das características mais importantes do React. Ele permite que os componentes armazenem e gerenciem dados internamente. Quando o estado de um componente é alterado, o React atualiza automaticamente a interface do usuário para refletir essas mudanças.</p><p>Por exemplo, podemos criar um componente simples que exibe um contador e permite que o usuário o aumente clicando em um botão:</p><p>O estado é uma das características mais importantes do React. Ele permite que os componentes armazenem e gerenciem dados internamente. Quando o estado de um componente é alterado, o React atualiza automaticamente a interface do usuário para refletir essas mudanças.</p><p>&nbsp;</p><pre><code class=\"language-javascript\">import React, { useState } from 'react';\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n\n  function handleClick() {\n    setCount(count + 1);\n  }\n\n  return (\n    &lt;div&gt;\n      &lt;p&gt;Contador: {count}&lt;/p&gt;\n      &lt;button onClick={handleClick}&gt;Incrementar&lt;/button&gt;\n    &lt;/div&gt;\n  );\n}\n\nexport default Counter;\n</code></pre><p>Neste exemplo, o componente Counter usa o hook useState do React para armazenar o estado do contador. Quando o usuário clica no botão \"Incrementar\", a função handleClick é chamada, atualizando o estado do contador e forçando o React a atualizar a interface do usuário.</p><ul><li>Use State</li><li>Use Effect</li><li>Use Callback</li><li>Use Memo</li><li>Use Ref</li><li>Use Context</li><li>Use Reducer</li></ul><h2>Benefícios do React</h2><h3>Reutilização de Código</h3><p>Uma das maiores vantagens do React é sua abordagem baseada em component</p><figure class=\"table\" style=\"width:100%;\"><table style=\"border:1px solid hsl(0, 0%, 30%);\"><tbody><tr><td>Title1</td><td>Title2</td><td>Title3</td><td>Title4</td><td>Title5</td><td>Title6</td><td>Title7</td><td>Title8</td><td>Title9</td><td>Title10</td></tr><tr><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td></tr><tr><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td></tr><tr><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td></tr><tr><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td><td>Item</td></tr></tbody></table><figcaption>Table</figcaption></figure><figure class=\"media\"><oembed url=\"https://www.youtube.com/watch?v=mHuUASWQij4\"></oembed></figure>",
+            "allowComments": true,
+            "createdAt": "2023-03-24T02:50:42.086Z",
+            "cover": {
+              "data": {
+                "attributes": {
+                  "name": "pexels-realtoughcandycom-11035471.jpg",
+                  "url": "https://res.cloudinary.com/dnhsdenji/image/upload/v1679625771/pexels_realtoughcandycom_11035471_127960d6fa.jpg"
+                }
+              }
+            },
+            "tags": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "Use State",
+                    "slug": "use-state"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Use Effect",
+                    "slug": "use-effect"
+                  }
+                }
+              ]
+            },
+            "categories": {
+              "data": [
+                {
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react"
+                  }
+                },
+                {
+                  "attributes": {
+                    "displayName": "Javascript",
+                    "slug": "javascript"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

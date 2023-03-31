@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HtmlContent /> should match snapshot 1`] = `
+.c0 {
+  font-size: 2.4rem;
+}
+
+.c0 p {
+  margin: 4.8rem 0;
+}
+
+.c0 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c0 pre {
+  background-color: #161B22;
+  color: #C9D1D9;
+  padding: 2.4rem;
+  font-family: monospace;
+  margin: 4.8rem 0;
+  border-radius: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c0 img {
+  max-width: 100%;
+}
+
+.c0 .image {
+  background-color: #ddd;
+  line-height: 0;
+  margin: 4.8rem 0;
+}
+
+.c0 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.c0 .image-style-side {
+  float: right;
+  margin: 2.4rem;
+}
+
+.c0 hr {
+  border: none;
+  border-bottom: 0.1rem solid #ddd;
+}
+
+.c0 ul,
+.c0 ol {
+  margin: 4.8rem;
+}
+
+.c0 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c0 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #ddd;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 2rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <b>
+    Children
+  </b>
+</div>
+`;

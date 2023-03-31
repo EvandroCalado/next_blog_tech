@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Post /> should render header, excerpt, cover, metadata and post 1`] = `
+.c3 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 6.4rem;
+  font-weight: 900;
+  text-transform: none;
+  text-align: center;
+}
+
+.c1 {
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  border-bottom: 0.1rem solid #ddd;
+}
+
+.c1 .c2 {
+  margin: 0;
+  margin-bottom: 2.4rem;
+}
+
+.c4 {
+  margin: 2.4rem 0;
+  font-size: 2.4rem;
+}
+
+.c5 {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2.4rem;
+}
+
+.c6 {
+  font-size: 1.6rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.c6 .categories span:not(:last-child)::after {
+  content: ', ';
+}
+
+.c6 span:first-child {
+  margin-right: 0.5rem;
+}
+
+.c6 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c6 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c8 {
+  font-size: 2.4rem;
+}
+
+.c8 p {
+  margin: 4.8rem 0;
+}
+
+.c8 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c8 pre {
+  background-color: #161B22;
+  color: #C9D1D9;
+  padding: 2.4rem;
+  font-family: monospace;
+  margin: 4.8rem 0;
+  border-radius: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c8 img {
+  max-width: 100%;
+}
+
+.c8 .image {
+  background-color: #ddd;
+  line-height: 0;
+  margin: 4.8rem 0;
+}
+
+.c8 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.c8 .image-style-side {
+  float: right;
+  margin: 2.4rem;
+}
+
+.c8 hr {
+  border: none;
+  border-bottom: 0.1rem solid #ddd;
+}
+
+.c8 ul,
+.c8 ol {
+  margin: 4.8rem;
+}
+
+.c8 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c8 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c8 table td,
+.c8 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #ddd;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+}
+
+.c7 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 1.6rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    padding: 1.6rem;
+  }
+}
+
+<div>
+  <article
+    class=""
+  >
+    <div
+      class="c0"
+    >
+      <header
+        class="c1"
+      >
+        <h1
+          class="c2 c3"
+        >
+          Desenvolvimento de aplicativos web escaláveis com Next.js
+        </h1>
+        <p
+          class="c4"
+        >
+          Se você está procurando um framework poderoso para desenvolver aplicativos web escaláveis, o Next.js pode ser a escolha certa para você. O Next.js é um framework baseado em React que oferece recursos avançados, como renderização no lado do servidor e roteamento dinâmico, para ajudá-lo a criar aplicativos web modernos e de alto desempenho. Neste post, exploraremos as principais características do Next.js e veremos como usá-lo para construir aplicativos web escaláveis.
+        </p>
+        <img
+          alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
+          class="c5"
+          src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
+        />
+        <div
+          class="c6"
+        >
+          <p>
+            <span>
+              Por
+            </span>
+            <a
+              href="/author/evandro-calado"
+            >
+              Evandro Calado
+            </a>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <time
+              datetime="2023-03-27T17:22:39.749Z"
+            >
+              27 de mar. de 2023
+            </time>
+            <span
+              class="separator"
+            >
+               | 
+            </span>
+            <span
+              class="categories"
+            >
+              <span>
+                <a
+                  href="/category/react"
+                >
+                  React
+                </a>
+              </span>
+              <span>
+                <a
+                  href="/category/next"
+                >
+                  Next
+                </a>
+              </span>
+            </span>
+          </p>
+        </div>
+      </header>
+    </div>
+    <div
+      class="c7"
+    >
+      <div
+        class="c8"
+      >
+        <h2>
+          O que é o Next.js?
+        </h2>
+        <p>
+          O Next.js é um framework de desenvolvimento web baseado em React que foi criado pela equipe da Vercel. Ele oferece muitos recursos e funcionalidades para tornar a criação de aplicativos web mais fácil e rápida. Alguns dos recursos mais notáveis   do Next.js incluem:
+        </p>
+        <ul>
+          <li>
+            Renderização no lado do servidor (SSR) e na renderização do lado do cliente (CSR)
+          </li>
+          <li>
+            Roteamento dinâmico
+          </li>
+          <li>
+            Pré-renderização estática e dinâmica
+          </li>
+          <li>
+            Suporte a CSS Modules
+          </li>
+          <li>
+            Suporte a API externas
+          </li>
+        </ul>
+        <p>
+          Esses recursos tornam o Next.js uma escolha popular para a criação de aplicativos web escaláveis e de alto desempenho.
+        </p>
+        <hr />
+        <figure
+          class="image"
+        >
+          <a
+            href="https://nextjs.org/"
+          >
+            <img
+              alt="next example"
+              sizes="100vw"
+              src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/next_ed0a265ac1.jpg"
+              srcset="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/thumbnail_next_ed0a265ac1.jpg 245w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/small_next_ed0a265ac1.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/medium_next_ed0a265ac1.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/large_next_ed0a265ac1.jpg 1000w,"
+            />
+          </a>
+          <figcaption>
+            Next Js Example
+          </figcaption>
+        </figure>
+        <h2>
+          Como começar com o Next.js
+        </h2>
+        <p>
+          Para começar a usar o 
+          <a
+            href="https://nextjs.org/"
+          >
+            Next.js
+          </a>
+          , você precisará instalá-lo. A maneira mais fácil de fazer isso é usando o 
+          <a
+            href="https://nodejs.org/en"
+          >
+            Node.js
+          </a>
+           e o gerenciador de pacotes NPM. Execute o seguinte comando no terminal para instalar o Next.js:
+        </p>
+        <pre>
+          <code
+            class="language-javascript"
+          >
+            npm install next react react-dom
+
+          </code>
+        </pre>
+        <p>
+          Depois de instalado, você pode criar um novo aplicativo Next.js usando o comando create-next-app. Execute o seguinte comando no terminal para criar um novo aplicativo Next.js:
+        </p>
+        <pre>
+          <code
+            class="language-javascript"
+          >
+            npx create-next-app my-app
+
+          </code>
+        </pre>
+        <p>
+          Isso criará um novo aplicativo Next.js em uma pasta chamada my-app. Você pode entrar na pasta e iniciar o servidor de desenvolvimento usando os seguintes comandos:
+        </p>
+        <pre>
+          <code
+            class="language-javascript"
+          >
+            cd my-app
+npm run dev
+
+          </code>
+        </pre>
+        <h2>
+          Páginas estáticas e dinâmicas
+        </h2>
+        <p>
+          O Next.js oferece suporte a dois tipos de páginas: páginas estáticas e páginas dinâmicas.
+        </p>
+        <hr />
+        <figure
+          class="image image-style-side"
+        >
+          <img
+            alt="next example"
+            sizes="100vw"
+            src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/next_ed0a265ac1.jpg"
+            srcset="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/thumbnail_next_ed0a265ac1.jpg 245w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/small_next_ed0a265ac1.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/medium_next_ed0a265ac1.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/large_next_ed0a265ac1.jpg 1000w,"
+          />
+          <figcaption>
+            Next component
+          </figcaption>
+        </figure>
+        <h3>
+          Páginas estáticas
+        </h3>
+        <p
+          style="margin-left:0px;"
+        >
+          As páginas estáticas são páginas que não mudam, independentemente de quem as solicita. Elas são pré-renderizadas no momento da construção e servidas como arquivos HTML estáticos para cada solicitação. Isso pode ajudar a melhorar o desempenho do aplicativo e reduzir o tempo de carregamento.
+        </p>
+        <p>
+          Para criar uma página estática no Next.js, crie um arquivo 
+          <strong>
+            .js
+          </strong>
+           ou 
+          <strong>
+            .tsx
+          </strong>
+           na pasta 
+          <strong>
+            pages
+          </strong>
+          . Por exemplo, para criar uma página estática chamada 
+          <strong>
+            about
+          </strong>
+          , crie um arquivo chamado 
+          <strong>
+            about.js
+          </strong>
+           ou 
+          <strong>
+            about.tsx
+          </strong>
+           na pasta pages. Em seguida, adicione o seguinte código:
+        </p>
+        <p>
+           
+        </p>
+        <pre>
+          <code
+            class="language-javascript"
+          >
+            function About() {
+  return &lt;h1&gt;About&lt;/h1&gt;
+}
+
+export default About
+
+          </code>
+        </pre>
+        <p>
+          Isso criará uma página estática com o título "About".
+        </p>
+        <h3>
+          Páginas dinâmicas
+        </h3>
+        <p>
+          As páginas dinâmicas são páginas que são renderizadas no servidor com base em dados específicos da solicitação. Por exemplo, uma página de perfil de usuário pode ser uma página dinâmica que é renderizada com base no nome de usuário da solicitação.
+        </p>
+        <p>
+          <br />
+           
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
+`;

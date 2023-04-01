@@ -1,4 +1,4 @@
-import { BaseProps } from '.';
+import { BaseTemplateProps } from '.';
 
 export default {
   settings: {
@@ -24,4 +24,4 @@ export default {
     ],
   },
   children: 'Olá Mundo',
-} as BaseProps;
+} as BaseTemplateProps;

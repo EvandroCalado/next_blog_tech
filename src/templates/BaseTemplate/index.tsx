@@ -5,11 +5,11 @@ import Menu from '../../components/Menu';
 import { SettingsStrapi } from '../../components/shared-types/settings-strapi';
 import * as Styled from './styles';
 
-export type BaseProps = {
+export type BaseTemplateProps = {
   settings: SettingsStrapi;
   children: React.ReactNode;
 };
-const Base = ({ settings, children }: BaseProps) => {
+const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
   return (
     <Styled.Wrapper>
       <Menu
@@ -37,4 +37,4 @@ const Base = ({ settings, children }: BaseProps) => {
   );
 };
 
-export default Base;
+export default BaseTemplate;

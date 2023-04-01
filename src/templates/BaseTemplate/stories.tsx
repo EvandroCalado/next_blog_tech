@@ -1,19 +1,19 @@
-import Base, { BaseProps } from '.';
+import BaseTemplate, { BaseTemplateProps } from '.';
 import { Meta, Story } from '@storybook/react/types-6-0';
 
 import mock from './mock';
 
 export default {
   title: 'Base',
-  component: Base,
+  component: BaseTemplate,
   args: mock,
   parameters: {
     layout: 'fullscreen',
   },
 } as Meta;
 
-export const Template: Story<BaseProps> = (args) => (
+export const Template: Story<BaseTemplateProps> = (args) => (
   <div>
-    <Base {...args} />
+    <BaseTemplate {...args} />
   </div>
 );

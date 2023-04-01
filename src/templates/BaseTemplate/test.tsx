@@ -1,4 +1,4 @@
-import Base from '.';
+import BaseTemplate from '.';
 import { screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
 
@@ -6,7 +6,7 @@ import mock from './mock';
 
 describe('<Base />', () => {
   it('should render elements', () => {
-    renderTheme(<Base {...mock} />);
+    renderTheme(<BaseTemplate {...mock} />);
 
     expect(
       screen.getByRole('img', {
@@ -21,7 +21,7 @@ describe('<Base />', () => {
   });
 
   it('should match snapshot', () => {
-    const { container } = renderTheme(<Base {...mock} />);
+    const { container } = renderTheme(<BaseTemplate {...mock} />);
 
     expect(container).toMatchSnapshot();
   });

@@ -1,4 +1,5 @@
 import Footer from '../../components/Footer';
+import GoTop from '../../components/GoTop';
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import { SettingsStrapi } from '../../components/shared-types/settings-strapi';
@@ -30,6 +31,8 @@ const Base = ({ settings, children }: BaseProps) => {
       <Styled.FooterContainer>
         <Footer footerHtml={settings.footer} />
       </Styled.FooterContainer>
+
+      <GoTop />
     </Styled.Wrapper>
   );
 };

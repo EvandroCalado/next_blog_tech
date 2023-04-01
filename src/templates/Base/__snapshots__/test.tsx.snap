@@ -1,0 +1,471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Base /> should match snapshot 1`] = `
+.c17 {
+  font-size: 2.4rem;
+}
+
+.c17 p {
+  margin: 4.8rem 0;
+}
+
+.c17 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c17 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c17 pre {
+  background-color: #161B22;
+  color: #C9D1D9;
+  padding: 2.4rem;
+  font-family: monospace;
+  margin: 4.8rem 0;
+  border-radius: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c17 img {
+  max-width: 100%;
+}
+
+.c17 .image {
+  background-color: #ddd;
+  line-height: 0;
+  margin: 4.8rem 0;
+}
+
+.c17 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.c17 .image-style-side {
+  float: right;
+  margin: 2.4rem;
+}
+
+.c17 hr {
+  border: none;
+  border-bottom: 0.1rem solid #ddd;
+}
+
+.c17 ul,
+.c17 ol {
+  margin: 4.8rem;
+}
+
+.c17 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c17 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c17 table td,
+.c17 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #ddd;
+}
+
+.c15 {
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.c15 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c15 .c16 {
+  font-size: 1.6rem;
+}
+
+.c18 {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  z-index: 6;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c6 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.c12 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-transform: none;
+  text-align: center;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  padding: 2rem;
+}
+
+.c7 > img {
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 6.4rem;
+  width: 100%;
+  max-width: 96rem;
+  color: #333;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+.c10 .c5 {
+  margin: 1.6rem 0;
+  text-align: left;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  margin-left: 3.2rem;
+  max-width: 48rem;
+}
+
+.c2 {
+  background-color: #000;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 32rem;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  left: -30rem;
+}
+
+.c2::-webkit-scrollbar {
+  display: none;
+}
+
+.c3 {
+  margin: auto;
+  width: 100%;
+}
+
+.c4 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.c4 .c5 img {
+  border: 0.3rem solid #dc143c;
+}
+
+.c0 {
+  position: fixed;
+  top: 2.4rem;
+  color: #fff;
+  background-color: #000;
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  left: 26rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  left: 1rem;
+  color: #fff;
+}
+
+.c8 {
+  display: block;
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0 solid #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
+.c9 {
+  margin-top: 6.4rem;
+}
+
+.c13 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+}
+
+.c14 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+@media (max-width:768px) {
+  .c17 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    left: -32rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    left: 0;
+  }
+}
+
+<div>
+  <div
+    class=""
+  >
+    <a
+      aria-label="Open or close menu"
+      class="c0"
+      href="#"
+      title="Open or close menu"
+    >
+      <svg
+        aria-hidden="true"
+        aria-label="Open menu"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </a>
+    <div
+      aria-hidden="true"
+      class="c2"
+    >
+      <nav
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <h1
+            class="c5 c6"
+          >
+            <a
+              class="c7"
+              href="/"
+              target="_self"
+            >
+              <img
+                alt="Evandro Calado"
+                src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
+              />
+            </a>
+          </h1>
+        </div>
+        <a
+          class="c8"
+          href="/home"
+          target="_self"
+        >
+          home
+        </a>
+        <a
+          class="c8"
+          href="/posts"
+          target="_self"
+        >
+          posts
+        </a>
+      </nav>
+    </div>
+    <div
+      class="c9"
+    >
+      <header
+        class="c10"
+      >
+        <h1
+          class="c5 c6"
+        >
+          <a
+            class="c7"
+            href="https://github.com/EvandroCalado"
+            target="_blank"
+          >
+            <img
+              alt="Evandro Calado - Blog sobre alguma coisa"
+              src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
+            />
+          </a>
+        </h1>
+        <div
+          class="c11"
+        >
+          <h2
+            class="c5 c12"
+          >
+            Evandro Calado
+          </h2>
+          <p>
+            Blog sobre alguma coisa
+          </p>
+        </div>
+      </header>
+    </div>
+    <div
+      class="c13"
+    >
+      Olá Mundo
+    </div>
+    <div
+      class="c14"
+    >
+      <footer
+        class="c15"
+      >
+        <div
+          class="c16 c17"
+        >
+          <p>
+            Feito com 💕 por 
+            <a
+              href="https://github.com/EvandroCalado"
+            >
+              Evandro Calado
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <a
+      aria-label="Go to top"
+      class="c18"
+      href="#"
+      title="Go to top"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;

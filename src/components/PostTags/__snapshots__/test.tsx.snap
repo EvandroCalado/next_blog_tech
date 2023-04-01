@@ -26,7 +26,8 @@ exports[`<PostTags /> should match snapshot 1`] = `
   <p
     class="c0"
   >
-    tags:
+    Tags:
+     
     <span>
       <a
         href="/tag/api"

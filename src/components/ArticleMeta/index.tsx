@@ -31,8 +31,8 @@ const ArticleMeta = ({
               {categories.map((category, index) => {
                 return (
                   <span key={`article-meta-cat${index}`}>
-                    <a href={`/category/${category.attributes.slug}`}>
-                      {category.attributes.displayName}
+                    <a href={`/category/${category.slug}`}>
+                      {category.displayName}
                     </a>
                   </span>
                 );

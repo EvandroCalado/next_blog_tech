@@ -12,16 +12,12 @@ export default {
   },
   categories: [
     {
-      attributes: {
-        displayName: 'React',
-        slug: 'react',
-      },
+      displayName: 'React',
+      slug: 'react',
     },
     {
-      attributes: {
-        displayName: 'Next',
-        slug: 'next',
-      },
+      displayName: 'Next',
+      slug: 'next',
     },
   ],
 };

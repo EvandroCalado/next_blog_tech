@@ -1,6 +1,4 @@
 export type Category = {
-  attributes: {
-    displayName: string;
-    slug: string;
-  };
+  displayName: string;
+  slug: string;
 };

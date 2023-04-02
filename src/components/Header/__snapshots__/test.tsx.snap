@@ -91,7 +91,7 @@ exports[`<Header /> should render an image, a heading and text 1`] = `
       >
         <img
           alt="Evandro Calado - Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum optio, eius quia quas molestias ipsum modi sed ullam exercitationem."
-          src="/assets/images/evandro.jpeg"
+          src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
         />
       </a>
     </h1>

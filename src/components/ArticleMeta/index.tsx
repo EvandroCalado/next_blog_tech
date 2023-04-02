@@ -1,7 +1,11 @@
 import { Author } from '../shared-types/author';
-import { Category } from '../shared-types/categories';
 import { formatDate } from '../utils/format-date';
 import * as Styled from './styles';
+
+export type Category = {
+  displayName: string;
+  slug: string;
+};
 
 export type ArticleMetaProps = {
   createdAt: string;

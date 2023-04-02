@@ -1,7 +1,7 @@
 import { PostProps } from '../Post';
-import { PostTagsProps } from '../PostTags';
+import { Tags } from './tags';
 
 export type PostStrapi = PostProps & {
-  tags: PostTagsProps;
-  slug: string;
+  tags: Tags[];
+  // slug: string;
 };

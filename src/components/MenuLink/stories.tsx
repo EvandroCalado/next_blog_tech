@@ -7,7 +7,7 @@ export default {
   component: MenuLink,
   args: {
     children: 'MenuLink',
-    link: 'https://www.google.com.br',
+    link: '//www.google.com.br',
   },
   argTypes: {
     children: { type: 'string' },

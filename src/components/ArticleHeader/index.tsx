@@ -1,8 +1,7 @@
 import { Author } from '../shared-types/author';
 import Heading from '../Heading';
 import * as Styled from './styles';
-import { Category } from '../shared-types/categories';
-import ArticleMeta from '../ArticleMeta';
+import ArticleMeta, { Category } from '../ArticleMeta';
 
 export type ArticleHeaderProps = {
   id: string;

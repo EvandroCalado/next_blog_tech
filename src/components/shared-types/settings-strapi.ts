@@ -1,7 +1,7 @@
 import { MenuPropsLinks } from '../Menu';
 
 export type SettingsStrapi = {
-  id: string;
+  // id: string;
   blogName: string;
   blogDescription: string;
   logo: string;

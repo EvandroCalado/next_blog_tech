@@ -1,5 +1,5 @@
 export type Tags = {
-  id: string;
+  // id: string;
   displayName: string;
   slug: string;
 };

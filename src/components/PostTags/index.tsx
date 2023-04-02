@@ -13,8 +13,8 @@ const PostTags = ({ tags = [] }: PostTagsProps) => {
   return (
     <Styled.Wrapper>
       Tags:{' '}
-      {tags.map((tag) => (
-        <span key={tag.id}>
+      {tags.map((tag, index) => (
+        <span key={`${tag.slug}${index}`}>
           <Link href={`/tag/${tag.slug}`}>{tag.displayName}</Link>
         </span>
       ))}

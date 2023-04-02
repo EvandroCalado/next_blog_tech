@@ -79,7 +79,7 @@ exports[`<Menu /> should match snapshot 1`] = `
   overflow: hidden;
 }
 
-.c7 {
+.c7 a {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -91,10 +91,9 @@ exports[`<Menu /> should match snapshot 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
-  padding: 2rem;
 }
 
-.c7 > img {
+.c7 a > img {
   width: 15rem;
   border-radius: 50%;
 }
@@ -162,16 +161,19 @@ exports[`<Menu /> should match snapshot 1`] = `
         <h1
           class="c5 c6"
         >
-          <a
+          <div
             class="c7"
-            href="/"
-            target="_self"
           >
-            <img
-              alt="Evandro Calado"
-              src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
-            />
-          </a>
+            <a
+              href="/"
+              target="_self"
+            >
+              <img
+                alt="Evandro Calado"
+                src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
+              />
+            </a>
+          </div>
         </h1>
       </div>
       <a

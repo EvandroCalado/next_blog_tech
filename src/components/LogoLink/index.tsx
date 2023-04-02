@@ -20,18 +20,20 @@ const LogoLink = ({
 
   if (isExternLink) {
     <Heading size="small" uppercase>
-      <Link href={link} passHref>
-        <Styled.Container target={target}>
+      <Styled.Container>
+        <Link href={link} target={target}>
           {image ? <img src={image} alt={text} /> : text}
-        </Styled.Container>
-      </Link>
+        </Link>
+      </Styled.Container>
     </Heading>;
   }
 
   return (
     <Heading size="small" uppercase>
-      <Styled.Container href={link} target={target}>
-        {image ? <img src={image} alt={text} /> : text}
+      <Styled.Container>
+        <Link href={link} target={target}>
+          {image ? <img src={image} alt={text} /> : text}
+        </Link>
       </Styled.Container>
     </Heading>
   );

@@ -1,6 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ArticleHeader /> should render heading, excerpt, cover, img and meta 1`] = `
+exports[
+  `<ArticleHeader /> should render heading, excerpt, cover, img and meta 1`
+] = `
 .c2 {
   color: #000;
   line-height: 1.2;
@@ -62,6 +64,18 @@ exports[`<ArticleHeader /> should render heading, excerpt, cover, img and meta 1
 @media (max-width:768px) {
   .c2 {
     font-size: 4rem;
+  }
+}
+
+@media (max-width:360px) {
+  .c0 .c1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:360px) {
+  .c3 {
+    font-size: 1.6rem;
   }
 }
 

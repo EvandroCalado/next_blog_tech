@@ -246,7 +246,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   overflow: hidden;
 }
 
-.c7 {
+.c7 a {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -258,10 +258,9 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
-  padding: 2rem;
 }
 
-.c7 > img {
+.c7 a > img {
   width: 15rem;
   border-radius: 50%;
 }
@@ -386,6 +385,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 
 .c9 {
   margin-top: 6.4rem;
+  padding: 0 3.2rem;
 }
 
 .c13 {
@@ -414,6 +414,18 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   }
 }
 
+@media (max-width:360px) {
+  .c15 .c5 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:360px) {
+  .c17 {
+    font-size: 1.6rem;
+  }
+}
+
 @media (max-width:768px) {
   .c22 {
     font-size: 2rem;
@@ -429,6 +441,20 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 @media (max-width:768px) {
   .c20 {
     padding: 1.6rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c10 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+}
+
+@media (max-width:768px) {
+  .c11 {
+    margin: 0;
   }
 }
 
@@ -481,16 +507,19 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           <h1
             class="c5 c6"
           >
-            <a
+            <div
               class="c7"
-              href="/"
-              target="_self"
             >
-              <img
-                alt="Evandro Calado"
-                src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
-              />
-            </a>
+              <a
+                href="/"
+                target="_self"
+              >
+                <img
+                  alt="Evandro Calado"
+                  src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
+                />
+              </a>
+            </div>
           </h1>
         </div>
         <a
@@ -518,16 +547,19 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
         <h1
           class="c5 c6"
         >
-          <a
+          <div
             class="c7"
-            href="https://github.com/EvandroCalado"
-            target="_blank"
           >
-            <img
-              alt="Evandro Calado - Blog sobre alguma coisa"
-              src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
-            />
-          </a>
+            <a
+              href="https://github.com/EvandroCalado"
+              target="_blank"
+            >
+              <img
+                alt="Evandro Calado - Blog sobre alguma coisa"
+                src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679924887/110628201_ae0753864b.jpg"
+              />
+            </a>
+          </div>
         </h1>
         <div
           class="c11"

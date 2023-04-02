@@ -10,6 +10,10 @@ export const Wrapper = styled.header`
     ${Title} {
       margin: 0;
       margin-bottom: ${theme.spacings.medium};
+
+      @media ${theme.media.small} {
+        font-size: ${theme.font.sizes.medium};
+      }
     }
   `}
 `;
@@ -18,6 +22,10 @@ export const Excerpt = styled.p`
   ${({ theme }) => css`
     margin: ${theme.spacings.medium} 0;
     font-size: ${theme.font.sizes.medium};
+
+    @media ${theme.media.small} {
+      font-size: ${theme.font.sizes.small};
+    }
   `}
 `;
 

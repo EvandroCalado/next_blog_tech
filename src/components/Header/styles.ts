@@ -17,6 +17,10 @@ export const Wrapper = styled.header`
       margin: ${theme.spacings.small} 0;
       text-align: left;
     }
+
+    @media ${theme.media.medium} {
+      flex-flow: column wrap;
+    }
   `}
 `;
 
@@ -26,5 +30,9 @@ export const Container = styled.div`
     flex-flow: column wrap;
     margin-left: ${theme.spacings.large};
     max-width: 48rem;
+
+    @media ${theme.media.medium} {
+      margin: 0;
+    }
   `}
 `;

@@ -2,7 +2,7 @@
 
 exports[`<Header /> should render an image, a heading and text 1`] = `
 .c2 {
-  color: #000;
+  color: #2a3840;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -11,7 +11,7 @@ exports[`<Header /> should render an image, a heading and text 1`] = `
 }
 
 .c5 {
-  color: #000;
+  color: #2a3840;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;

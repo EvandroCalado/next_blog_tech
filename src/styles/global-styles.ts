@@ -22,4 +22,8 @@ export const GlobalStyles = createGlobalStyle`
     margin: ${({ theme }) => theme.spacings.large} 0;
     font-weight: 800;
   }
+
+  p {
+    color: ${({ theme }) => theme.colors.primary};
+  }
 `;

@@ -6,7 +6,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c6 {
-  color: #000;
+  color: #2a3840;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -15,7 +15,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c12 {
-  color: #000;
+  color: #2a3840;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -24,7 +24,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c16 {
-  color: #000;
+  color: #2a3840;
   line-height: 1.2;
   font-size: 6.4rem;
   font-weight: 900;
@@ -69,7 +69,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c19 a {
-  color: #dc143c;
+  color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
@@ -90,7 +90,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c22 a {
-  color: #dc143c;
+  color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
@@ -186,7 +186,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c24 a {
-  color: #dc143c;
+  color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
@@ -214,9 +214,9 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c27 {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #000;
+  background-color: #f2f2f2;
+  color: #2a3840;
+  border: 1px solid #2a3840;
   border-radius: 50%;
   position: fixed;
   bottom: 2rem;
@@ -304,7 +304,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c2 {
-  background-color: #000;
+  background-color: #2a3840;
   padding: 3.2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -348,14 +348,14 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c4 .c5 img {
-  border: 0.3rem solid #dc143c;
+  border: 0.3rem solid #f24b4b;
 }
 
 .c0 {
   position: fixed;
   top: 2.4rem;
-  color: #fff;
-  background-color: #000;
+  color: #f2f2f2;
+  background-color: #2a3840;
   z-index: 2;
   width: 3rem;
   height: 3rem;
@@ -363,24 +363,24 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   left: 1rem;
-  color: #fff;
+  color: #f2f2f2;
 }
 
-.c8 {
+.c8 a {
   display: block;
-  color: #fff;
+  color: #f2f2f2;
   -webkit-text-decoration: none;
   text-decoration: none;
   margin-bottom: 1.6rem;
   font-size: 1.8rem;
-  border-right: 0 solid #000;
+  border-right: 0 solid #2a3840;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
-.c8:hover {
-  border-right: 0.5rem solid #dc143c;
-  color: #dc143c;
+.c8 a:hover {
+  border-right: 0.5rem solid #f24b4b;
+  color: #f24b4b;
 }
 
 .c9 {
@@ -522,20 +522,26 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
             </div>
           </h1>
         </div>
-        <a
+        <div
           class="c8"
-          href="/home"
-          target="_self"
         >
-          home
-        </a>
-        <a
+          <a
+            href="/home"
+            target="_self"
+          >
+            home
+          </a>
+        </div>
+        <div
           class="c8"
-          href="/posts"
-          target="_self"
         >
-          posts
-        </a>
+          <a
+            href="/posts"
+            target="_self"
+          >
+            posts
+          </a>
+        </div>
       </nav>
     </div>
     <div

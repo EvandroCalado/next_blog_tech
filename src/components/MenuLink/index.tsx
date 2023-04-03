@@ -13,15 +13,19 @@ const MenuLink = ({ children, link, newTab = false }: MenuLinkProps) => {
 
   if (isExternLink) {
     return (
-      <Link href={link} target={target}>
-        {children}
-      </Link>
+      <Styled.Container>
+        <Link href={link} target={target}>
+          {children}
+        </Link>
+      </Styled.Container>
     );
   }
 
   return (
-    <Styled.Container href={link} target={target}>
-      {children}
+    <Styled.Container>
+      <Link href={link} target={target}>
+        {children}
+      </Link>
     </Styled.Container>
   );
 };

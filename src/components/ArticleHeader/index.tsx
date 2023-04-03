@@ -6,6 +6,7 @@ import ArticleMeta, { Category } from '../ArticleMeta';
 export type ArticleHeaderProps = {
   id: string;
   title: string;
+  slug: string;
   excerpt: string;
   cover: string;
   author: Author;

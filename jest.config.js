@@ -8,6 +8,8 @@ module.exports = {
     '!<rootDir>/src/**/shared-types/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/styles/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/config/**/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/templates/**/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/graphql/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/pages/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/**/stories.{js,jsx,ts,tsx}',
     '!<rootDir>/node_modules/',
@@ -15,7 +17,13 @@ module.exports = {
 
   testEnvironment: 'jsdom',
   testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[tj]s?(x)'],
-  testPathIgnorePatterns: ['/node_modules/', '/.next/', '/.out/', '/public/'],
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '/.next/',
+    '/.out/',
+    '/public/',
+    '/src/pages/',
+  ],
 
   setupFilesAfterEnv: ['<rootDir>/.jest/setup-tests.js'],
 };

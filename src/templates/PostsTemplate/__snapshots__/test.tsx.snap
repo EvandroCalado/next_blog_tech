@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostsTemplate /> should match snapshot 1`] = `
-.c18 {
+.c20 {
   padding: 0 3.2rem;
   margin: 3.2rem 0;
   display: -webkit-box;
@@ -14,16 +14,22 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   justify-content: center;
 }
 
-.c19 {
+.c21 {
   background-color: #2a3840;
   color: #f2f2f2;
   border: none;
   padding: 1.6rem 3.2rem;
   font-size: 1.6rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   cursor: pointer;
 }
 
-.c19:disabled {
+.c21:hover {
+  color: #f24b4b;
+}
+
+.c21:disabled {
   background-color: #aaa;
 }
 
@@ -45,11 +51,11 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   text-align: center;
 }
 
-.c16 .c5 {
+.c18 .c5 {
   margin: 1.6rem 0;
 }
 
-.c16 a {
+.c18 a {
   -webkit-text-decoration: none;
   text-decoration: none;
   color: inherit;
@@ -57,25 +63,25 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c16:hover a {
+.c18:hover a {
   color: #f24b4b;
 }
 
-.c16:hover img {
+.c18:hover img {
   opacity: 0.8;
 }
 
-.c17 {
+.c19 {
   max-width: 100%;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }
 
-.c14 {
+.c16 {
   width: 100%;
 }
 
-.c15 {
+.c17 {
   max-width: 120rem;
   margin: 0 auto;
   display: grid;
@@ -84,15 +90,15 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   padding: 3.2rem;
 }
 
-.c23 {
+.c25 {
   font-size: 2.4rem;
 }
 
-.c23 p {
+.c25 p {
   margin: 4.8rem 0;
 }
 
-.c23 a {
+.c25 a {
   color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -100,12 +106,12 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c23 a:hover {
+.c25 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c23 pre {
+.c25 pre {
   background-color: #161B22;
   color: #C9D1D9;
   padding: 2.4rem;
@@ -117,78 +123,76 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   font-size: 1.6rem;
 }
 
-.c23 img {
+.c25 img {
   max-width: 100%;
 }
 
-.c23 .image {
+.c25 .image {
   background-color: #ddd;
   line-height: 0;
   margin: 4.8rem 0;
 }
 
-.c23 .image figcaption {
+.c25 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3rem;
 }
 
-.c23 .image-style-side {
+.c25 .image-style-side {
   float: right;
   margin: 2.4rem;
 }
 
-.c23 hr {
+.c25 hr {
   border: none;
   border-bottom: 0.1rem solid #ddd;
 }
 
-.c23 ul,
-.c23 ol {
+.c25 ul,
+.c25 ol {
   margin: 4.8rem;
 }
 
-.c23 .table {
+.c25 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c23 table {
+.c25 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c23 table td,
-.c23 table th {
+.c25 table td,
+.c25 table th {
   padding: 1.6rem;
   border: 0.1rem solid #ddd;
 }
 
-.c21 {
+.c23 {
   text-align: center;
   border-top: 1px solid #ddd;
 }
 
-.c21 a {
+.c23 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c21 .c22 {
+.c23 .c24 {
   font-size: 1.6rem;
 }
 
-.c24 {
-  background-color: #f2f2f2;
-  color: #2a3840;
-  border: 1px solid #2a3840;
-  border-radius: 50%;
+.c26 {
+  background-color: #2a3840;
+  color: #f2f2f2;
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 3rem;
+  right: 5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -201,11 +205,17 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   z-index: 6;
   -webkit-text-decoration: none;
   text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c26:hover {
+  color: #f24b4b;
 }
 
 .c1 {
@@ -246,7 +256,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 6.4rem;
   width: 100%;
   max-width: 96rem;
   color: #333;
@@ -351,19 +360,67 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   color: #f24b4b;
 }
 
-.c9 {
-  margin-top: 6.4rem;
+.c13 {
+  margin: 0 auto;
+  margin-bottom: 4rem;
   padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 1000%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 3rem;
+  right: 0.1rem;
 }
 
-.c13 {
+.c13 > svg {
+  width: 2rem;
+  position: relative;
+  right: 2.6rem;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+  margin-left: auto;
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 0;
+  position: relative;
+  z-index: 2;
+  background: transparent;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c14:focus {
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 20rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c20 {
+.c9 {
+  margin-top: 6.4rem;
+  padding: 0 3.2rem;
+}
+
+.c22 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -371,13 +428,13 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:360px) {
-  .c15 {
+  .c17 {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width:768px) {
-  .c23 {
+  .c25 {
     font-size: 2rem;
   }
 }
@@ -519,24 +576,51 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
         </div>
       </header>
     </div>
-    <div
-      class="c13"
+    <form
+      action="/search/"
+      method="GET"
     >
       <div
-        class="c14"
+        class="c13"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Busca..."
+          type="search"
+        />
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+      </div>
+    </form>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
       >
         <div
-          class="c15"
+          class="c17"
         >
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/undefined"
             >
               <img
                 alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
               />
             </a>
@@ -556,14 +640,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/undefined"
             >
               <img
                 alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
               />
             </a>
@@ -583,14 +667,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/undefined"
             >
               <img
                 alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
               />
             </a>
@@ -610,14 +694,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/undefined"
             >
               <img
                 alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
               />
             </a>
@@ -637,14 +721,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/undefined"
             >
               <img
                 alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
               />
             </a>
@@ -664,14 +748,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             </p>
           </div>
           <div
-            class="c16"
+            class="c18"
           >
             <a
               href="/post/undefined"
             >
               <img
                 alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
-                class="c17"
+                class="c19"
                 src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
               />
             </a>
@@ -693,23 +777,23 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="c18"
+        class="c20"
       >
         <button
-          class="c19"
+          class="c21"
         >
           Carregar mais
         </button>
       </div>
     </div>
     <div
-      class="c20"
+      class="c22"
     >
       <footer
-        class="c21"
+        class="c23"
       >
         <div
-          class="c22 c23"
+          class="c24 c25"
         >
           <p>
             Feito com 💕 por 
@@ -724,7 +808,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c24"
+      class="c26"
       href="#"
       title="Go to top"
     >
@@ -746,32 +830,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 `;
 
 exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
-.c17 {
-  padding: 0 3.2rem;
-  margin: 3.2rem 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c18 {
-  background-color: #2a3840;
-  color: #f2f2f2;
-  border: none;
-  padding: 1.6rem 3.2rem;
-  font-size: 1.6rem;
-  cursor: pointer;
-}
-
-.c18:disabled {
-  background-color: #aaa;
-}
-
 .c6 {
   color: #2a3840;
   line-height: 1.2;
@@ -790,17 +848,17 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   text-align: center;
 }
 
-.c14 {
+.c16 {
   width: 100%;
 }
 
-.c15 {
+.c17 {
   padding: 3.2rem;
   text-align: center;
   font-size: 1.6rem;
 }
 
-.c16 {
+.c18 {
   max-width: 120rem;
   margin: 0 auto;
   display: grid;
@@ -907,13 +965,11 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c23 {
-  background-color: #f2f2f2;
-  color: #2a3840;
-  border: 1px solid #2a3840;
-  border-radius: 50%;
+  background-color: #2a3840;
+  color: #f2f2f2;
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 3rem;
+  right: 5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -926,11 +982,17 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   z-index: 6;
   -webkit-text-decoration: none;
   text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c23:hover {
+  color: #f24b4b;
 }
 
 .c1 {
@@ -971,7 +1033,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 6.4rem;
   width: 100%;
   max-width: 96rem;
   color: #333;
@@ -1076,16 +1137,64 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   color: #f24b4b;
 }
 
-.c9 {
-  margin-top: 6.4rem;
+.c13 {
+  margin: 0 auto;
+  margin-bottom: 4rem;
   padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 1000%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 3rem;
+  right: 0.1rem;
 }
 
-.c13 {
+.c13 > svg {
+  width: 2rem;
+  position: relative;
+  right: 2.6rem;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+  margin-left: auto;
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 0;
+  position: relative;
+  z-index: 2;
+  background: transparent;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c14:focus {
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 20rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
+}
+
+.c9 {
+  margin-top: 6.4rem;
+  padding: 0 3.2rem;
 }
 
 .c19 {
@@ -1096,7 +1205,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 @media (max-width:360px) {
-  .c16 {
+  .c18 {
     grid-template-columns: 1fr;
   }
 }
@@ -1244,29 +1353,47 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
         </div>
       </header>
     </div>
-    <div
-      class="c13"
+    <form
+      action="/search/"
+      method="GET"
     >
       <div
-        class="c14"
+        class="c13"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Busca..."
+          type="search"
+        />
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+      </div>
+    </form>
+    <div
+      class="c15"
+    >
+      <div
+        class="c16"
       >
         <p
-          class="c15"
+          class="c17"
         >
           Nenhum post encontrado !
         </p>
         <div
-          class="c16"
-        />
-      </div>
-      <div
-        class="c17"
-      >
-        <button
           class="c18"
-        >
-          Carregar mais
-        </button>
+        />
       </div>
     </div>
     <div

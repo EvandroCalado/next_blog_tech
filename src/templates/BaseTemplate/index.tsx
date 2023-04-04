@@ -3,6 +3,7 @@ import GoTop from '../../components/GoTop';
 import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import { SettingsStrapi } from '../../components/shared-types/settings-strapi';
+import { Search } from '@styled-icons/material-outlined';
 import * as Styled from './styles';
 
 export type BaseTemplateProps = {
@@ -25,6 +26,13 @@ const BaseTemplate = ({ settings, children }: BaseTemplateProps) => {
           logo={settings.logo}
         />
       </Styled.HeaderContainer>
+
+      <form action="/search/" method="GET">
+        <Styled.SearchContainer>
+          <Styled.SearchInput type="search" placeholder="Busca..." name="q" />
+          <Search />
+        </Styled.SearchContainer>
+      </form>
 
       <Styled.ContentContainer>{children}</Styled.ContentContainer>
 

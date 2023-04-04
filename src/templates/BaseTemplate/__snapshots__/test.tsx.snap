@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Base /> should match snapshot 1`] = `
-.c17 {
+.c19 {
   font-size: 2.4rem;
 }
 
-.c17 p {
+.c19 p {
   margin: 4.8rem 0;
 }
 
-.c17 a {
+.c19 a {
   color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -17,12 +17,12 @@ exports[`<Base /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c17 a:hover {
+.c19 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c17 pre {
+.c19 pre {
   background-color: #161B22;
   color: #C9D1D9;
   padding: 2.4rem;
@@ -34,78 +34,76 @@ exports[`<Base /> should match snapshot 1`] = `
   font-size: 1.6rem;
 }
 
-.c17 img {
+.c19 img {
   max-width: 100%;
 }
 
-.c17 .image {
+.c19 .image {
   background-color: #ddd;
   line-height: 0;
   margin: 4.8rem 0;
 }
 
-.c17 .image figcaption {
+.c19 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3rem;
 }
 
-.c17 .image-style-side {
+.c19 .image-style-side {
   float: right;
   margin: 2.4rem;
 }
 
-.c17 hr {
+.c19 hr {
   border: none;
   border-bottom: 0.1rem solid #ddd;
 }
 
-.c17 ul,
-.c17 ol {
+.c19 ul,
+.c19 ol {
   margin: 4.8rem;
 }
 
-.c17 .table {
+.c19 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c17 table {
+.c19 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c17 table td,
-.c17 table th {
+.c19 table td,
+.c19 table th {
   padding: 1.6rem;
   border: 0.1rem solid #ddd;
 }
 
-.c15 {
+.c17 {
   text-align: center;
   border-top: 1px solid #ddd;
 }
 
-.c15 a {
+.c17 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c15 .c16 {
+.c17 .c18 {
   font-size: 1.6rem;
 }
 
-.c18 {
-  background-color: #f2f2f2;
-  color: #2a3840;
-  border: 1px solid #2a3840;
-  border-radius: 50%;
+.c20 {
+  background-color: #2a3840;
+  color: #f2f2f2;
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 3rem;
+  right: 5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -118,11 +116,17 @@ exports[`<Base /> should match snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   z-index: 6;
   -webkit-text-decoration: none;
   text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c20:hover {
+  color: #f24b4b;
 }
 
 .c1 {
@@ -181,7 +185,6 @@ exports[`<Base /> should match snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 6.4rem;
   width: 100%;
   max-width: 96rem;
   color: #333;
@@ -286,19 +289,67 @@ exports[`<Base /> should match snapshot 1`] = `
   color: #f24b4b;
 }
 
-.c9 {
-  margin-top: 6.4rem;
+.c13 {
+  margin: 0 auto;
+  margin-bottom: 4rem;
   padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 1000%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 3rem;
+  right: 0.1rem;
 }
 
-.c13 {
+.c13 > svg {
+  width: 2rem;
+  position: relative;
+  right: 2.6rem;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+  margin-left: auto;
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 0;
+  position: relative;
+  z-index: 2;
+  background: transparent;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c14:focus {
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 20rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c14 {
+.c9 {
+  margin-top: 6.4rem;
+  padding: 0 3.2rem;
+}
+
+.c16 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -306,7 +357,7 @@ exports[`<Base /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c17 {
+  .c19 {
     font-size: 2rem;
   }
 }
@@ -448,19 +499,46 @@ exports[`<Base /> should match snapshot 1`] = `
         </div>
       </header>
     </div>
+    <form
+      action="/search/"
+      method="GET"
+    >
+      <div
+        class="c13"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Busca..."
+          type="search"
+        />
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+      </div>
+    </form>
     <div
-      class="c13"
+      class="c15"
     >
       Olá Mundo
     </div>
     <div
-      class="c14"
+      class="c16"
     >
       <footer
-        class="c15"
+        class="c17"
       >
         <div
-          class="c16 c17"
+          class="c18 c19"
         >
           <p>
             Feito com 💕 por 
@@ -475,7 +553,7 @@ exports[`<Base /> should match snapshot 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c18"
+      class="c20"
       href="#"
       title="Go to top"
     >

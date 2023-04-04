@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> should match snapshot 1`] = `
-.c23 {
+.c25 {
   padding: 0 3.2rem;
 }
 
@@ -23,7 +23,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   text-align: center;
 }
 
-.c16 {
+.c18 {
   color: #2a3840;
   line-height: 1.2;
   font-size: 6.4rem;
@@ -32,43 +32,43 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   text-align: center;
 }
 
-.c15 {
+.c17 {
   padding-bottom: 4rem;
   margin-bottom: 4rem;
   border-bottom: 0.1rem solid #ddd;
 }
 
-.c15 .c5 {
+.c17 .c5 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
 
-.c17 {
+.c19 {
   margin: 2.4rem 0;
   font-size: 2.4rem;
 }
 
-.c18 {
+.c20 {
   width: 100%;
   display: block;
   margin-bottom: 2.4rem;
 }
 
-.c19 {
+.c21 {
   font-size: 1.6rem;
   color: #aaa;
   font-style: italic;
 }
 
-.c19 .categories span:not(:last-child)::after {
+.c21 .categories span:not(:last-child)::after {
   content: ', ';
 }
 
-.c19 span:first-child {
+.c21 span:first-child {
   margin-right: 0.5rem;
 }
 
-.c19 a {
+.c21 a {
   color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -76,113 +76,17 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c19 a:hover {
+.c21 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
-}
-
-.c22 {
-  font-size: 2.4rem;
-}
-
-.c22 p {
-  margin: 4.8rem 0;
-}
-
-.c22 a {
-  color: #f24b4b;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c22 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c22 pre {
-  background-color: #161B22;
-  color: #C9D1D9;
-  padding: 2.4rem;
-  font-family: monospace;
-  margin: 4.8rem 0;
-  border-radius: 1rem;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c22 img {
-  max-width: 100%;
-}
-
-.c22 .image {
-  background-color: #ddd;
-  line-height: 0;
-  margin: 4.8rem 0;
-}
-
-.c22 .image figcaption {
-  font-size: 1.6rem;
-  padding: 1.6rem;
-  text-align: center;
-  line-height: 1.3rem;
-}
-
-.c22 .image-style-side {
-  float: right;
-  margin: 2.4rem;
-}
-
-.c22 hr {
-  border: none;
-  border-bottom: 0.1rem solid #ddd;
-}
-
-.c22 ul,
-.c22 ol {
-  margin: 4.8rem;
-}
-
-.c22 .table {
-  width: 100%;
-  overflow: hidden;
-  overflow-x: auto;
-}
-
-.c22 table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.c22 table td,
-.c22 table th {
-  padding: 1.6rem;
-  border: 0.1rem solid #ddd;
-}
-
-.c14 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  max-width: 120rem;
-}
-
-.c20 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  max-width: 80rem;
 }
 
 .c24 {
-  margin: 3.2rem 0;
+  font-size: 2.4rem;
 }
 
-.c24 span:not(:last-child)::after {
-  content: ', ';
+.c24 p {
+  margin: 4.8rem 0;
 }
 
 .c24 a {
@@ -198,29 +102,123 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   filter: brightness(50%);
 }
 
+.c24 pre {
+  background-color: #161B22;
+  color: #C9D1D9;
+  padding: 2.4rem;
+  font-family: monospace;
+  margin: 4.8rem 0;
+  border-radius: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c24 img {
+  max-width: 100%;
+}
+
+.c24 .image {
+  background-color: #ddd;
+  line-height: 0;
+  margin: 4.8rem 0;
+}
+
+.c24 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+.c24 .image-style-side {
+  float: right;
+  margin: 2.4rem;
+}
+
+.c24 hr {
+  border: none;
+  border-bottom: 0.1rem solid #ddd;
+}
+
+.c24 ul,
+.c24 ol {
+  margin: 4.8rem;
+}
+
+.c24 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c24 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.c24 table td,
+.c24 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #ddd;
+}
+
+.c16 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+}
+
+.c22 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
 .c26 {
+  margin: 3.2rem 0;
+}
+
+.c26 span:not(:last-child)::after {
+  content: ', ';
+}
+
+.c26 a {
+  color: #f24b4b;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c26 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c28 {
   text-align: center;
   border-top: 1px solid #ddd;
 }
 
-.c26 a {
+.c28 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c26 .c21 {
+.c28 .c23 {
   font-size: 1.6rem;
 }
 
-.c27 {
-  background-color: #f2f2f2;
-  color: #2a3840;
-  border: 1px solid #2a3840;
-  border-radius: 50%;
+.c29 {
+  background-color: #2a3840;
+  color: #f2f2f2;
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 3rem;
+  right: 5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -233,11 +231,17 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   z-index: 6;
   -webkit-text-decoration: none;
   text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c29:hover {
+  color: #f24b4b;
 }
 
 .c1 {
@@ -278,7 +282,6 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 6.4rem;
   width: 100%;
   max-width: 96rem;
   color: #333;
@@ -383,19 +386,67 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   color: #f24b4b;
 }
 
-.c9 {
-  margin-top: 6.4rem;
+.c13 {
+  margin: 0 auto;
+  margin-bottom: 4rem;
   padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 1000%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 3rem;
+  right: 0.1rem;
 }
 
-.c13 {
+.c13 > svg {
+  width: 2rem;
+  position: relative;
+  right: 2.6rem;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+  margin-left: auto;
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 0;
+  position: relative;
+  z-index: 2;
+  background: transparent;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c14:focus {
+  border: 1px solid #2a3840;
+  outline: none;
+  width: 20rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c25 {
+.c9 {
+  margin-top: 6.4rem;
+  padding: 0 3.2rem;
+}
+
+.c27 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -403,43 +454,43 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c23 {
+  .c25 {
     padding: 0 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c18 {
     font-size: 4rem;
   }
 }
 
 @media (max-width:360px) {
-  .c15 .c5 {
+  .c17 .c5 {
     font-size: 2.4rem;
   }
 }
 
 @media (max-width:360px) {
-  .c17 {
+  .c19 {
     font-size: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .c22 {
+  .c24 {
     font-size: 2rem;
   }
 }
 
 @media (max-width:768px) {
-  .c14 {
+  .c16 {
     padding: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .c20 {
+  .c22 {
     padding: 1.6rem;
   }
 }
@@ -581,35 +632,62 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
         </div>
       </header>
     </div>
+    <form
+      action="/search/"
+      method="GET"
+    >
+      <div
+        class="c13"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Busca..."
+          type="search"
+        />
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+      </div>
+    </form>
     <div
-      class="c13"
+      class="c15"
     >
       <article
         class=""
       >
         <div
-          class="c14"
+          class="c16"
         >
           <header
-            class="c15"
+            class="c17"
           >
             <h1
-              class="c5 c16"
+              class="c5 c18"
             >
               Desenvolvimento de aplicativos web escaláveis com Next.js
             </h1>
             <p
-              class="c17"
+              class="c19"
             >
               Se você está procurando um framework poderoso para desenvolver aplicativos web escaláveis, o Next.js pode ser a escolha certa para você. O Next.js é um framework baseado em React que oferece recursos avançados, como renderização no lado do servidor e roteamento dinâmico, para ajudá-lo a criar aplicativos web modernos e de alto desempenho. Neste post, exploraremos as principais características do Next.js e veremos como usá-lo para construir aplicativos web escaláveis.
             </p>
             <img
               alt="Desenvolvimento de aplicativos web escaláveis com Next.js"
-              class="c18"
+              class="c20"
               src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679929576/twitter_card_f0df8b6a20.png"
             />
             <div
-              class="c19"
+              class="c21"
             >
               <p>
                 <span>
@@ -658,10 +736,10 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           </header>
         </div>
         <div
-          class="c20"
+          class="c22"
         >
           <div
-            class="c21 c22"
+            class="c23 c24"
           >
             <h2>
               O que é o Next.js?
@@ -843,10 +921,10 @@ export default About
         </div>
       </article>
       <div
-        class="c23"
+        class="c25"
       >
         <p
-          class="c24"
+          class="c26"
         >
           Tags:
            
@@ -868,13 +946,13 @@ export default About
       </div>
     </div>
     <div
-      class="c25"
+      class="c27"
     >
       <footer
-        class="c26"
+        class="c28"
       >
         <div
-          class="c21 c22"
+          class="c23 c24"
         >
           <p>
             Feito com 💕 por 
@@ -889,7 +967,7 @@ export default About
     </div>
     <a
       aria-label="Go to top"
-      class="c27"
+      class="c29"
       href="#"
       title="Go to top"
     >

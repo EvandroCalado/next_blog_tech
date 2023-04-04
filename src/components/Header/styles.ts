@@ -6,7 +6,6 @@ export const Wrapper = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: ${theme.spacings.xhuge};
     width: 100%;
     max-width: ${theme.sizes.max};
     color: ${theme.colors.dark};

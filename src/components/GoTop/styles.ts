@@ -2,19 +2,22 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.a`
   ${({ theme }) => css`
-    background-color: ${theme.colors.white};
-    color: ${theme.colors.primary};
-    border: 1px solid ${theme.colors.primary};
-    border-radius: 50%;
+    background-color: ${theme.colors.primary};
+    color: ${theme.colors.white};
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 3rem;
+    right: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     z-index: 6;
     text-decoration: none;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+      color: ${theme.colors.secondary};
+    }
   `}
 `;

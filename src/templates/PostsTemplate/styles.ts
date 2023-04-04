@@ -16,7 +16,12 @@ export const Button = styled.button`
     border: none;
     padding: ${theme.spacings.small} ${theme.spacings.large};
     font-size: ${theme.font.sizes.small};
+    transition: all 300ms ease-in-out;
     cursor: pointer;
+
+    &:hover {
+      color: ${theme.colors.secondary};
+    }
 
     &:disabled {
       background-color: ${theme.colors.darkerGray};

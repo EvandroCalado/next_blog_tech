@@ -1,6 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostsTemplate /> should match snapshot 1`] = `
+.c18 {
+  padding: 0 3.2rem;
+  margin: 3.2rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c19 {
+  background-color: #2a3840;
+  color: #f2f2f2;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.c19:disabled {
+  background-color: #aaa;
+}
+
 .c6 {
   color: #2a3840;
   line-height: 1.2;
@@ -58,15 +84,15 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   padding: 3.2rem;
 }
 
-.c21 {
+.c23 {
   font-size: 2.4rem;
 }
 
-.c21 p {
+.c23 p {
   margin: 4.8rem 0;
 }
 
-.c21 a {
+.c23 a {
   color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -74,12 +100,12 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c21 a:hover {
+.c23 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c21 pre {
+.c23 pre {
   background-color: #161B22;
   color: #C9D1D9;
   padding: 2.4rem;
@@ -91,71 +117,71 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   font-size: 1.6rem;
 }
 
-.c21 img {
+.c23 img {
   max-width: 100%;
 }
 
-.c21 .image {
+.c23 .image {
   background-color: #ddd;
   line-height: 0;
   margin: 4.8rem 0;
 }
 
-.c21 .image figcaption {
+.c23 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3rem;
 }
 
-.c21 .image-style-side {
+.c23 .image-style-side {
   float: right;
   margin: 2.4rem;
 }
 
-.c21 hr {
+.c23 hr {
   border: none;
   border-bottom: 0.1rem solid #ddd;
 }
 
-.c21 ul,
-.c21 ol {
+.c23 ul,
+.c23 ol {
   margin: 4.8rem;
 }
 
-.c21 .table {
+.c23 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c21 table {
+.c23 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c21 table td,
-.c21 table th {
+.c23 table td,
+.c23 table th {
   padding: 1.6rem;
   border: 0.1rem solid #ddd;
 }
 
-.c19 {
+.c21 {
   text-align: center;
   border-top: 1px solid #ddd;
 }
 
-.c19 a {
+.c21 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c19 .c20 {
+.c21 .c22 {
   font-size: 1.6rem;
 }
 
-.c22 {
+.c24 {
   background-color: #f2f2f2;
   color: #2a3840;
   border: 1px solid #2a3840;
@@ -337,7 +363,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   margin-bottom: 6.4rem;
 }
 
-.c18 {
+.c20 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -351,7 +377,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c23 {
     font-size: 2rem;
   }
 }
@@ -666,15 +692,24 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
           </div>
         </div>
       </div>
+      <div
+        class="c18"
+      >
+        <button
+          class="c19"
+        >
+          Carregar mais
+        </button>
+      </div>
     </div>
     <div
-      class="c18"
+      class="c20"
     >
       <footer
-        class="c19"
+        class="c21"
       >
         <div
-          class="c20 c21"
+          class="c22 c23"
         >
           <p>
             Feito com 💕 por 
@@ -689,7 +724,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c22"
+      class="c24"
       href="#"
       title="Go to top"
     >
@@ -711,6 +746,32 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 `;
 
 exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
+.c17 {
+  padding: 0 3.2rem;
+  margin: 3.2rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c18 {
+  background-color: #2a3840;
+  color: #f2f2f2;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.c18:disabled {
+  background-color: #aaa;
+}
+
 .c6 {
   color: #2a3840;
   line-height: 1.2;
@@ -748,15 +809,15 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   padding: 3.2rem;
 }
 
-.c20 {
+.c22 {
   font-size: 2.4rem;
 }
 
-.c20 p {
+.c22 p {
   margin: 4.8rem 0;
 }
 
-.c20 a {
+.c22 a {
   color: #f24b4b;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -764,12 +825,12 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c20 a:hover {
+.c22 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c20 pre {
+.c22 pre {
   background-color: #161B22;
   color: #C9D1D9;
   padding: 2.4rem;
@@ -781,71 +842,71 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   font-size: 1.6rem;
 }
 
-.c20 img {
+.c22 img {
   max-width: 100%;
 }
 
-.c20 .image {
+.c22 .image {
   background-color: #ddd;
   line-height: 0;
   margin: 4.8rem 0;
 }
 
-.c20 .image figcaption {
+.c22 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3rem;
 }
 
-.c20 .image-style-side {
+.c22 .image-style-side {
   float: right;
   margin: 2.4rem;
 }
 
-.c20 hr {
+.c22 hr {
   border: none;
   border-bottom: 0.1rem solid #ddd;
 }
 
-.c20 ul,
-.c20 ol {
+.c22 ul,
+.c22 ol {
   margin: 4.8rem;
 }
 
-.c20 .table {
+.c22 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c20 table {
+.c22 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c20 table td,
-.c20 table th {
+.c22 table td,
+.c22 table th {
   padding: 1.6rem;
   border: 0.1rem solid #ddd;
 }
 
-.c18 {
+.c20 {
   text-align: center;
   border-top: 1px solid #ddd;
 }
 
-.c18 a {
+.c20 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c18 .c19 {
+.c20 .c21 {
   font-size: 1.6rem;
 }
 
-.c21 {
+.c23 {
   background-color: #f2f2f2;
   color: #2a3840;
   border: 1px solid #2a3840;
@@ -1027,7 +1088,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   margin-bottom: 6.4rem;
 }
 
-.c17 {
+.c19 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -1041,7 +1102,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 @media (max-width:768px) {
-  .c20 {
+  .c22 {
     font-size: 2rem;
   }
 }
@@ -1198,15 +1259,24 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
           class="c16"
         />
       </div>
+      <div
+        class="c17"
+      >
+        <button
+          class="c18"
+        >
+          Carregar mais
+        </button>
+      </div>
     </div>
     <div
-      class="c17"
+      class="c19"
     >
       <footer
-        class="c18"
+        class="c20"
       >
         <div
-          class="c19 c20"
+          class="c21 c22"
         >
           <p>
             Feito com 💕 por 
@@ -1221,7 +1291,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c21"
+      class="c23"
       href="#"
       title="Go to top"
     >

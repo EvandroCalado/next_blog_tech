@@ -13,15 +13,15 @@ export type LoadPostsVariables = {
   limit?: number;
 };
 
-export const loadPosts = async (variables: LoadPostsVariables = {}) => {
-  const defaultVariables: LoadPostsVariables = {
-    sort: 'createdAt:desc',
-    start: 0,
-    limit: 10,
-  };
+export const defaultLoadPostVariables: LoadPostsVariables = {
+  sort: 'createdAt:desc',
+  start: 0,
+  limit: 1,
+};
 
+export const loadPosts = async (variables: LoadPostsVariables = {}) => {
   const data = await request(config.graphqlURL, GRAPHQL_QUERIES, {
-    ...defaultVariables,
+    ...defaultLoadPostVariables,
     ...variables,
   });
 

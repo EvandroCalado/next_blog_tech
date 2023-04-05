@@ -14,7 +14,7 @@ export const SearchContainer = styled.div`
     justify-content: center;
     position: absolute;
     top: 3rem;
-    right: 0.1rem;
+    right: 6rem;
 
     > svg {
       width: 2rem;

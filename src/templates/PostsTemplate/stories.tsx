@@ -7,6 +7,12 @@ export default {
   title: 'PostsTemplate',
   component: PostsTemplate,
   args: mock,
+  parameters: {
+    layout: 'fullscreen',
+    backgrounds: {
+      default: '',
+    },
+  },
 } as Meta;
 
 export const Template: Story<PostsTemplateProps> = (args) => (

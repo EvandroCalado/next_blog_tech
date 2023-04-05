@@ -3,5 +3,5 @@ import { Tags } from './tags';
 
 export type PostStrapi = PostProps & {
   tags: Tags[];
-  // slug: string;
+  allowComments: boolean;
 };

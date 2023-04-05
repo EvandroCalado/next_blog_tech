@@ -1,11 +1,12 @@
 export const theme = {
+  name: 'default',
   colors: {
-    primary: '#2a3840',
-    secondary: '#f24b4b',
+    primary: '#000',
+    secondary: '#dc143c',
     codeBackground: '#161B22',
     codeFontColor: '#C9D1D9',
     dark: '#333',
-    white: '#f2f2f2',
+    white: '#fff',
     mediumGray: '#ddd',
     darkerGray: '#aaa',
   },
@@ -43,4 +44,4 @@ export const theme = {
     max: '96rem',
     content: '80rem',
   },
-} as const;
+};

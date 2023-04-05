@@ -15,9 +15,10 @@ export const Container = styled.a`
     z-index: 6;
     text-decoration: none;
     transition: all 300ms ease-in-out;
+    cursor: pointer;
 
     &:hover {
-      color: ${theme.colors.secondary};
+      background-color: ${theme.colors.secondary};
     }
   `}
 `;

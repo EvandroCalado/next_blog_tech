@@ -17,10 +17,10 @@ const Header = ({
   return (
     <Styled.Wrapper>
       <LogoLink
-        link="https://github.com/EvandroCalado"
+        link="/"
         text={`${blogName} - ${blogDescription}`}
         image={logo}
-        newTab={true}
+        newTab={false}
       />
 
       {showText && (

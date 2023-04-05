@@ -2,7 +2,7 @@
 
 exports[`<Menu /> should match snapshot 1`] = `
 .c6 {
-  color: #2a3840;
+  color: #000;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -11,7 +11,7 @@ exports[`<Menu /> should match snapshot 1`] = `
 }
 
 .c2 {
-  background-color: #2a3840;
+  background-color: #000;
   padding: 3.2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -55,14 +55,14 @@ exports[`<Menu /> should match snapshot 1`] = `
 }
 
 .c4 .c5 img {
-  border: 0.3rem solid #f24b4b;
+  border: 0.3rem solid #dc143c;
 }
 
 .c0 {
   position: fixed;
   top: 2.4rem;
-  color: #f2f2f2;
-  background-color: #2a3840;
+  color: #fff;
+  background-color: #000;
   z-index: 2;
   width: 3rem;
   height: 3rem;
@@ -70,7 +70,7 @@ exports[`<Menu /> should match snapshot 1`] = `
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   left: 1rem;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .c1 {
@@ -100,19 +100,19 @@ exports[`<Menu /> should match snapshot 1`] = `
 
 .c8 a {
   display: block;
-  color: #f2f2f2;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
   margin-bottom: 1.6rem;
   font-size: 1.8rem;
-  border-right: 0 solid #2a3840;
+  border-right: 0 solid #000;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
 .c8 a:hover {
-  border-right: 0.5rem solid #f24b4b;
-  color: #f24b4b;
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
 }
 
 @media (max-width:768px) {

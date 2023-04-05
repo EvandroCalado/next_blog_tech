@@ -2,7 +2,7 @@
 
 exports[`<Header /> should render an image, a heading and text 1`] = `
 .c2 {
-  color: #2a3840;
+  color: #000;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -11,7 +11,7 @@ exports[`<Header /> should render an image, a heading and text 1`] = `
 }
 
 .c5 {
-  color: #2a3840;
+  color: #000;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -100,8 +100,8 @@ exports[`<Header /> should render an image, a heading and text 1`] = `
         class="c3"
       >
         <a
-          href="https://github.com/EvandroCalado"
-          target="_blank"
+          href="/"
+          target="_self"
         >
           <img
             alt="Evandro Calado - Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum optio, eius quia quas molestias ipsum modi sed ullam exercitationem."

@@ -20,7 +20,7 @@ export const Button = styled.button`
     cursor: pointer;
 
     &:hover {
-      color: ${theme.colors.secondary};
+      background-color: ${theme.colors.secondary};
     }
 
     &:disabled {

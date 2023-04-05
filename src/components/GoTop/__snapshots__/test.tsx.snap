@@ -2,8 +2,8 @@
 
 exports[`<GoTop /> should render a go to top button 1`] = `
 .c0 {
-  background-color: #2a3840;
-  color: #f2f2f2;
+  background-color: #000;
+  color: #fff;
   position: fixed;
   bottom: 3rem;
   right: 5rem;
@@ -26,10 +26,11 @@ exports[`<GoTop /> should render a go to top button 1`] = `
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .c0:hover {
-  color: #f24b4b;
+  background-color: #dc143c;
 }
 
 .c1 {
@@ -42,7 +43,6 @@ exports[`<GoTop /> should render a go to top button 1`] = `
   <a
     aria-label="Go to top"
     class="c0"
-    href="#"
     title="Go to top"
   >
     <svg

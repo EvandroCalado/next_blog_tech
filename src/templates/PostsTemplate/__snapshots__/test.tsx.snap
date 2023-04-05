@@ -15,8 +15,8 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c21 {
-  background-color: #2a3840;
-  color: #f2f2f2;
+  background-color: #000;
+  color: #fff;
   border: none;
   padding: 1.6rem 3.2rem;
   font-size: 1.6rem;
@@ -26,7 +26,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c21:hover {
-  color: #f24b4b;
+  background-color: #dc143c;
 }
 
 .c21:disabled {
@@ -34,7 +34,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c6 {
-  color: #2a3840;
+  color: #000;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -43,7 +43,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c12 {
-  color: #2a3840;
+  color: #000;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -64,7 +64,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c18:hover a {
-  color: #f24b4b;
+  color: #dc143c;
 }
 
 .c18:hover img {
@@ -99,7 +99,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c25 a {
-  color: #f24b4b;
+  color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
@@ -188,8 +188,8 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c26 {
-  background-color: #2a3840;
-  color: #f2f2f2;
+  background-color: #000;
+  color: #fff;
   position: fixed;
   bottom: 3rem;
   right: 5rem;
@@ -212,10 +212,11 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .c26:hover {
-  color: #f24b4b;
+  background-color: #dc143c;
 }
 
 .c1 {
@@ -281,7 +282,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c2 {
-  background-color: #2a3840;
+  background-color: #000;
   padding: 3.2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -325,14 +326,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c4 .c5 img {
-  border: 0.3rem solid #f24b4b;
+  border: 0.3rem solid #dc143c;
 }
 
 .c0 {
   position: fixed;
   top: 2.4rem;
-  color: #f2f2f2;
-  background-color: #2a3840;
+  color: #fff;
+  background-color: #000;
   z-index: 2;
   width: 3rem;
   height: 3rem;
@@ -340,24 +341,24 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   left: 1rem;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .c8 a {
   display: block;
-  color: #f2f2f2;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
   margin-bottom: 1.6rem;
   font-size: 1.8rem;
-  border-right: 0 solid #2a3840;
+  border-right: 0 solid #000;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
 .c8 a:hover {
-  border-right: 0.5rem solid #f24b4b;
-  color: #f24b4b;
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
 }
 
 .c13 {
@@ -387,12 +388,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   width: 2rem;
   position: relative;
   right: 2.6rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .c14 {
   padding: 0.5rem 1.6rem;
   margin-left: auto;
-  border: 1px solid #2a3840;
+  border: 1px solid #000;
   outline: none;
   width: 0;
   position: relative;
@@ -403,9 +406,14 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 }
 
 .c14:focus {
-  border: 1px solid #2a3840;
+  border: 1px solid #000;
+  padding: 0.5rem 3.2rem;
   outline: none;
   width: 20rem;
+}
+
+.c14:focus ~ svg {
+  right: 19.2rem;
 }
 
 .c15 {
@@ -552,8 +560,8 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             class="c7"
           >
             <a
-              href="https://github.com/EvandroCalado"
-              target="_blank"
+              href="/"
+              target="_self"
             >
               <img
                 alt="Evandro Calado - Blog sobre alguma coisa"
@@ -809,7 +817,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
     <a
       aria-label="Go to top"
       class="c26"
-      href="#"
       title="Go to top"
     >
       <svg
@@ -831,7 +838,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 
 exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 .c6 {
-  color: #2a3840;
+  color: #000;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -840,7 +847,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c12 {
-  color: #2a3840;
+  color: #000;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;
@@ -876,7 +883,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c22 a {
-  color: #f24b4b;
+  color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
@@ -965,8 +972,8 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c23 {
-  background-color: #2a3840;
-  color: #f2f2f2;
+  background-color: #000;
+  color: #fff;
   position: fixed;
   bottom: 3rem;
   right: 5rem;
@@ -989,10 +996,11 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   text-decoration: none;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  cursor: pointer;
 }
 
 .c23:hover {
-  color: #f24b4b;
+  background-color: #dc143c;
 }
 
 .c1 {
@@ -1058,7 +1066,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c2 {
-  background-color: #2a3840;
+  background-color: #000;
   padding: 3.2rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1102,14 +1110,14 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c4 .c5 img {
-  border: 0.3rem solid #f24b4b;
+  border: 0.3rem solid #dc143c;
 }
 
 .c0 {
   position: fixed;
   top: 2.4rem;
-  color: #f2f2f2;
-  background-color: #2a3840;
+  color: #fff;
+  background-color: #000;
   z-index: 2;
   width: 3rem;
   height: 3rem;
@@ -1117,24 +1125,24 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   left: 1rem;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 .c8 a {
   display: block;
-  color: #f2f2f2;
+  color: #fff;
   -webkit-text-decoration: none;
   text-decoration: none;
   margin-bottom: 1.6rem;
   font-size: 1.8rem;
-  border-right: 0 solid #2a3840;
+  border-right: 0 solid #000;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
 .c8 a:hover {
-  border-right: 0.5rem solid #f24b4b;
-  color: #f24b4b;
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
 }
 
 .c13 {
@@ -1164,12 +1172,14 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   width: 2rem;
   position: relative;
   right: 2.6rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .c14 {
   padding: 0.5rem 1.6rem;
   margin-left: auto;
-  border: 1px solid #2a3840;
+  border: 1px solid #000;
   outline: none;
   width: 0;
   position: relative;
@@ -1180,9 +1190,14 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 }
 
 .c14:focus {
-  border: 1px solid #2a3840;
+  border: 1px solid #000;
+  padding: 0.5rem 3.2rem;
   outline: none;
   width: 20rem;
+}
+
+.c14:focus ~ svg {
+  right: 19.2rem;
 }
 
 .c15 {
@@ -1329,8 +1344,8 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
             class="c7"
           >
             <a
-              href="https://github.com/EvandroCalado"
-              target="_blank"
+              href="/"
+              target="_self"
             >
               <img
                 alt="Evandro Calado - Blog sobre alguma coisa"
@@ -1419,7 +1434,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
     <a
       aria-label="Go to top"
       class="c23"
-      href="#"
       title="Go to top"
     >
       <svg

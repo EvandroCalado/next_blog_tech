@@ -20,6 +20,7 @@ export const SearchContainer = styled.div`
       width: 2rem;
       position: relative;
       right: 2.6rem;
+      transition: all 300ms ease-in-out;
     }
   `}
 `;
@@ -38,8 +39,14 @@ export const SearchInput = styled.input`
 
     &:focus {
       border: 1px solid ${theme.colors.primary};
+      padding: 0.5rem ${theme.spacings.large};
+
       outline: none;
       width: 20rem;
+
+      ~ svg {
+        right: 19.2rem;
+      }
     }
   `}
 `;

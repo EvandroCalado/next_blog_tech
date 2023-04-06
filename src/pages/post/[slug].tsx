@@ -1,12 +1,18 @@
 import { useRouter } from 'next/router';
-import { StrapiPostsAnsSetting } from '..';
 import PostTemplate from '../../templates/PostTemplate';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { loadPosts } from '../../api/load-posts';
 import { mapData } from '../../api/mapData';
 import Head from 'next/head';
+import { PostStrapi } from '../../components/shared-types/post-strapi';
+import { SettingsStrapi } from '../../components/shared-types/settings-strapi';
 
-const PostPage = ({ posts, setting }: StrapiPostsAnsSetting) => {
+export type PostPageProps = {
+  posts: PostStrapi[];
+  setting: SettingsStrapi;
+};
+
+const PostPage = ({ posts, setting }: PostPageProps) => {
   const router = useRouter();
 
   if (router.isFallback) {
@@ -27,7 +33,7 @@ const PostPage = ({ posts, setting }: StrapiPostsAnsSetting) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  let data: StrapiPostsAnsSetting | null = null;
+  let data: PostPageProps | null = null;
   let paths = [];
 
   try {
@@ -50,9 +56,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
-export const getStaticProps: GetStaticProps<StrapiPostsAnsSetting> = async (
-  ctx,
-) => {
+export const getStaticProps: GetStaticProps = async (ctx) => {
   let data = null;
 
   try {

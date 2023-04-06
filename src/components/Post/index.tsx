@@ -9,6 +9,7 @@ export type PostProps = ArticleHeaderProps & {
 const Post = ({
   title,
   author,
+  slug,
   categories,
   content,
   cover,
@@ -27,6 +28,7 @@ const Post = ({
           id={id}
           cover={cover}
           createdAt={createdAt}
+          slug={slug}
         />
       </PostContainer>
       <PostContainer size="content">

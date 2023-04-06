@@ -15,6 +15,7 @@ export type ArticleHeaderProps = {
 };
 const ArticleHeader = ({
   title,
+  slug,
   excerpt,
   cover,
   author,
@@ -27,7 +28,7 @@ const ArticleHeader = ({
         {title}
       </Heading>
       <Styled.Excerpt>{excerpt}</Styled.Excerpt>
-      <Styled.Cover src={cover} alt={title} />
+      <Styled.Cover src={cover} alt={slug} />
       <ArticleMeta
         categories={categories}
         author={author}

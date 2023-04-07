@@ -1,15 +1,21 @@
 import GoTop from '.';
-// import { screen } from '@testing-library/react';
+import { fireEvent, screen } from '@testing-library/react';
 import { renderTheme } from '../../styles/render-theme';
 
+beforeEach(() => {
+  Object.defineProperty(window, 'scrollTo', {
+    value: jest.fn(),
+    writable: true,
+  });
+});
+
 describe('<GoTop />', () => {
-  it('should render a go to top button', () => {
+  it('should scroll to top when clicked', () => {
     const { container } = renderTheme(<GoTop />);
-    // expect(screen.getByRole('link', { name: 'Go to top' })).toBeInTheDocument();
-    // expect(screen.getByRole('link', { name: 'Go to top' })).toHaveAttribute(
-    //   'href',
-    //   '#',
-    // );
+    const button = screen.getByLabelText('Go to top');
+    const scrollToSpy = jest.spyOn(window, 'scrollTo');
+    fireEvent.click(button);
+    expect(scrollToSpy).toHaveBeenCalledWith(0, 0);
     expect(container).toMatchSnapshot();
   });
 });

@@ -34,6 +34,7 @@ const ToggleTheme = () => {
           value="Dark mode active"
           onChange={handleChange}
           checked={cheked}
+          aria-label="Checkbox"
         />
         <Styled.Slider></Styled.Slider>
       </Styled.Label>

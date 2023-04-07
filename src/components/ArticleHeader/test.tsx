@@ -11,7 +11,7 @@ describe('<ArticleHeader />', () => {
     expect(
       screen.getByRole('heading', { name: mock.title }),
     ).toBeInTheDocument();
-    expect(screen.getByRole('img', { name: mock.title })).toBeInTheDocument();
+    expect(screen.getByRole('img', { name: mock.slug })).toBeInTheDocument();
     expect(screen.getByText(mock.excerpt)).toBeInTheDocument();
     expect(screen.getByText(formatDate(mock.createdAt))).toBeInTheDocument();
     expect(container).toMatchSnapshot();

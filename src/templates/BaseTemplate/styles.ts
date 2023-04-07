@@ -56,7 +56,7 @@ export const ContentContainer = styled.div`
     max-width: ${theme.sizes.full};
     width: 100%;
     margin: 0 auto;
-    margin-bottom: ${theme.spacings.xhuge};
+    margin-bottom: ${theme.spacings.large};
   `}
 `;
 
@@ -72,6 +72,5 @@ export const FooterContainer = styled.div`
     max-width: ${theme.sizes.full};
     width: 100%;
     margin: 0 auto;
-    padding: ${theme.spacings.large};
   `}
 `;

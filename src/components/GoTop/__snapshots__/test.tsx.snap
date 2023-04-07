@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GoTop /> should render a go to top button 1`] = `
+exports[`<GoTop /> should scroll to top when clicked 1`] = `
 .c0 {
   background-color: #000;
   color: #fff;

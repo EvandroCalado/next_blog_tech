@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from 'react';
 import { BlogThemeContext } from '../../contexts/BlogThemeContext';
 import * as Styled from './styles';
+import { LightMode, DarkMode } from '@styled-icons/material-outlined';
 
 const ToggleTheme = () => {
   const { setTheme } = useContext(BlogThemeContext);
@@ -27,6 +28,7 @@ const ToggleTheme = () => {
 
   return (
     <Styled.Wrapper>
+      <LightMode />
       <Styled.Label>
         Toggle light and dark modes
         <Styled.Input
@@ -38,6 +40,7 @@ const ToggleTheme = () => {
         />
         <Styled.Slider></Styled.Slider>
       </Styled.Label>
+      <DarkMode />
     </Styled.Wrapper>
   );
 };

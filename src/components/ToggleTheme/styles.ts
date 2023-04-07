@@ -1,10 +1,21 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  position: absolute;
-  right: 5rem;
-  top: 3.1rem;
-  z-index: 2;
+  ${({ theme }) => css`
+    position: absolute;
+    right: 1rem;
+    top: 3.1rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    > svg {
+      width: 2.5rem;
+      color: ${theme.colors.primary};
+    }
+  `}
 `;
 
 export const Label = styled.label`

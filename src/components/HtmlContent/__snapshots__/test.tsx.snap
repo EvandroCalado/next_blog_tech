@@ -360,6 +360,5 @@ exports[`<HtmlContent /> should match snapshot 1`] = `
       Children
     </b>
   </div>
-  ;
 </div>
 `;

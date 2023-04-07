@@ -379,7 +379,6 @@ exports[`<Footer /> should render 1`] = `
           Olá
         </h1>
       </div>
-      ;
     </div>
   </footer>
 </div>

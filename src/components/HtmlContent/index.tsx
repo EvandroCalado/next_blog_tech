@@ -14,7 +14,7 @@ const HtmlContent = ({ html }: HtmlContentProps) => {
 
   return (
     <PrismWrapper>
-      <Styled.Container dangerouslySetInnerHTML={{ __html: html }} />;
+      <Styled.Container dangerouslySetInnerHTML={{ __html: html }} />
     </PrismWrapper>
   );
 };

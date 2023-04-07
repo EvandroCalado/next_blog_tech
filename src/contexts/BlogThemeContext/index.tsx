@@ -40,7 +40,7 @@ export const BlogThemeProvider = ({ children }: BlogThemeProviderProps) => {
             codeBackground: '#161B22',
             codeFontColor: '#C9D1D9',
             dark: '#f9f9f9',
-            white: '#000',
+            white: '#303030',
             mediumGray: '#f9f9f9',
             darkerGray: '#ccc',
           },

@@ -2,8 +2,8 @@
 
 exports[`<GoTop /> should scroll to top when clicked 1`] = `
 .c0 {
-  background-color: #000;
-  color: #fff;
+  background-color: #303030;
+  color: #eee;
   position: fixed;
   bottom: 3rem;
   right: 5rem;

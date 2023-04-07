@@ -2,7 +2,7 @@
 
 exports[`<PostCard /> should render match snapshot 1`] = `
 .c3 {
-  color: #000;
+  color: #303030;
   line-height: 1.2;
   font-size: 2.4rem;
   font-weight: 900;

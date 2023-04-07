@@ -4,7 +4,7 @@ exports[
   `<Post /> should render header, excerpt, cover, metadata and post 1`
 ] = `
 .c3 {
-  color: #000;
+  color: #303030;
   line-height: 1.2;
   font-size: 6.4rem;
   font-weight: 900;
@@ -61,15 +61,15 @@ exports[
   filter: brightness(50%);
 }
 
-.c8 {
+.c9 {
   font-size: 2.4rem;
 }
 
-.c8 p {
+.c9 p {
   margin: 4.8rem 0;
 }
 
-.c8 a {
+.c9 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -77,70 +77,324 @@ exports[
   transition: all 300ms ease-in-out;
 }
 
-.c8 a:hover {
+.c9 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c8 pre {
-  background-color: #161B22;
-  color: #C9D1D9;
-  padding: 2.4rem;
-  font-family: monospace;
-  margin: 4.8rem 0;
-  border-radius: 1rem;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c8 img {
+.c9 img {
   max-width: 100%;
 }
 
-.c8 .image {
+.c9 .image {
   background-color: #ddd;
   line-height: 0;
   margin: 4.8rem 0;
 }
 
-.c8 .image figcaption {
+.c9 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3rem;
 }
 
-.c8 .image-style-side {
+.c9 .image-style-side {
   float: right;
   margin: 2.4rem;
 }
 
-.c8 hr {
+.c9 hr {
   border: none;
   border-bottom: 0.1rem solid #ddd;
 }
 
-.c8 ul,
-.c8 ol {
+.c9 ul,
+.c9 ol {
   margin: 4.8rem;
 }
 
-.c8 .table {
+.c9 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c8 table {
+.c9 table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.c8 table td,
-.c8 table th {
+.c9 table td,
+.c9 table th {
   padding: 1.6rem;
   border: 0.1rem solid #ddd;
+}
+
+.c8 pre[class*='language-'],
+.c8 code[class*='language-'] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,'Andale Mono','Ubuntu Mono','Courier New',monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c8 pre[class*='language-']::selection,
+.c8 code[class*='language-']::selection,
+.c8 pre[class*='language-'] *::selection,
+.c8 code[class*='language-'] *::selection {
+  text-shadow: none;
+  background: #264f78;
+}
+
+.c8 pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c8:not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #1e1e1e;
+}
+
+.c8 .namespace {
+  opacity: 0.7;
+}
+
+.c8 .token.doctype .token.doctype-tag {
+  color: #569cd6;
+}
+
+.c8 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c8 .token.comment,
+.c8 .token.prolog {
+  color: #6a9955;
+}
+
+.c8 .token.punctuation,
+.c8 .language-html .language-css .token.punctuation,
+.c8 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c8 .token.property,
+.c8 .token.tag,
+.c8 .token.boolean,
+.c8 .token.number,
+.c8 .token.constant,
+.c8 .token.symbol,
+.c8 .token.inserted,
+.c8 .token.unit {
+  color: #b5cea8;
+}
+
+.c8 .token.selector,
+.c8 .token.attr-name,
+.c8 .token.string,
+.c8 .token.char,
+.c8 .token.builtin,
+.c8 .token.deleted {
+  color: #ce9178;
+}
+
+.c8 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c8 .token.operator,
+.c8 .token.entity {
+  color: #d4d4d4;
+}
+
+.c8 .token.operator.arrow {
+  color: #569cd6;
+}
+
+.c8 .token.atrule {
+  color: #ce9178;
+}
+
+.c8 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c8 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c8 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c8 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c8 .token.keyword {
+  color: #569cd6;
+}
+
+.c8 .token.keyword.module,
+.c8 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c8 .token.function,
+.c8 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c8 .token.regex {
+  color: #d16969;
+}
+
+.c8 .token.important {
+  color: #569cd6;
+}
+
+.c8 .token.italic {
+  font-style: italic;
+}
+
+.c8 .token.constant {
+  color: #9cdcfe;
+}
+
+.c8 .token.class-name,
+.c8 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c8 .token.console {
+  color: #9cdcfe;
+}
+
+.c8 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c8 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c8 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c8 .token.boolean {
+  color: #569cd6;
+}
+
+.c8 .token.property,
+.c8 .token.variable,
+.c8 .token.imports .token.maybe-class-name,
+.c8 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c8 .token.selector {
+  color: #d7ba7d;
+}
+
+.c8 .token.escape {
+  color: #d7ba7d;
+}
+
+.c8 .token.tag {
+  color: #569cd6;
+}
+
+.c8 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c8 .token.cdata {
+  color: #808080;
+}
+
+.c8 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c8 .token.attr-value,
+.c8 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c8 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c8 .token.entity {
+  color: #569cd6;
+}
+
+.c8 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c8 pre[class*='language-javascript'],
+.c8 code[class*='language-javascript'],
+.c8 pre[class*='language-jsx'],
+.c8 code[class*='language-jsx'],
+.c8 pre[class*='language-typescript'],
+.c8 code[class*='language-typescript'],
+.c8 pre[class*='language-tsx'],
+.c8 code[class*='language-tsx'] {
+  color: #9cdcfe;
+}
+
+.c8 pre[class*='language-css'],
+.c8 code[class*='language-css'] {
+  color: #ce9178;
+}
+
+.c8 pre[class*='language-html'],
+.c8 code[class*='language-html'] {
+  color: #d4d4d4;
+}
+
+.c8 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c8 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c8 pre[class*='language-'] > code[class*='language-'] {
+  position: relative;
+  z-index: 1;
+}
+
+.c8 .line-highlight.line-highlight {
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
 }
 
 .c0 {
@@ -176,8 +430,15 @@ exports[
 }
 
 @media (max-width:768px) {
-  .c8 {
+  .c9 {
     font-size: 2rem;
+  }
+}
+
+@media print {
+  .c8 pre[class*='language-'],
+  .c8 code[class*='language-'] {
+    text-shadow: none;
   }
 }
 
@@ -273,38 +534,150 @@ exports[
       <div
         class="c8"
       >
-        <h2>
-          O que é o Next.js?
-        </h2>
-        <p>
-          O Next.js é um framework de desenvolvimento web baseado em React que foi criado pela equipe da Vercel. Ele oferece muitos recursos e funcionalidades para tornar a criação de aplicativos web mais fácil e rápida. Alguns dos recursos mais notáveis   do Next.js incluem:
-        </p>
-        <ul>
-          <li>
-            Renderização no lado do servidor (SSR) e na renderização do lado do cliente (CSR)
-          </li>
-          <li>
-            Roteamento dinâmico
-          </li>
-          <li>
-            Pré-renderização estática e dinâmica
-          </li>
-          <li>
-            Suporte a CSS Modules
-          </li>
-          <li>
-            Suporte a API externas
-          </li>
-        </ul>
-        <p>
-          Esses recursos tornam o Next.js uma escolha popular para a criação de aplicativos web escaláveis e de alto desempenho.
-        </p>
-        <hr />
-        <figure
-          class="image"
+        <div
+          class="c9"
         >
-          <a
-            href="https://nextjs.org/"
+          <h2>
+            O que é o Next.js?
+          </h2>
+          <p>
+            O Next.js é um framework de desenvolvimento web baseado em React que foi criado pela equipe da Vercel. Ele oferece muitos recursos e funcionalidades para tornar a criação de aplicativos web mais fácil e rápida. Alguns dos recursos mais notáveis   do Next.js incluem:
+          </p>
+          <ul>
+            <li>
+              Renderização no lado do servidor (SSR) e na renderização do lado do cliente (CSR)
+            </li>
+            <li>
+              Roteamento dinâmico
+            </li>
+            <li>
+              Pré-renderização estática e dinâmica
+            </li>
+            <li>
+              Suporte a CSS Modules
+            </li>
+            <li>
+              Suporte a API externas
+            </li>
+          </ul>
+          <p>
+            Esses recursos tornam o Next.js uma escolha popular para a criação de aplicativos web escaláveis e de alto desempenho.
+          </p>
+          <hr />
+          <figure
+            class="image"
+          >
+            <a
+              href="https://nextjs.org/"
+            >
+              <img
+                alt="next example"
+                sizes="100vw"
+                src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/next_ed0a265ac1.jpg"
+                srcset="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/thumbnail_next_ed0a265ac1.jpg 245w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/small_next_ed0a265ac1.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/medium_next_ed0a265ac1.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/large_next_ed0a265ac1.jpg 1000w,"
+              />
+            </a>
+            <figcaption>
+              Next Js Example
+            </figcaption>
+          </figure>
+          <h2>
+            Como começar com o Next.js
+          </h2>
+          <p>
+            Para começar a usar o 
+            <a
+              href="https://nextjs.org/"
+            >
+              Next.js
+            </a>
+            , você precisará instalá-lo. A maneira mais fácil de fazer isso é usando o 
+            <a
+              href="https://nodejs.org/en"
+            >
+              Node.js
+            </a>
+             e o gerenciador de pacotes NPM. Execute o seguinte comando no terminal para instalar o Next.js:
+          </p>
+          <pre
+            class="language-javascript"
+            tabindex="0"
+          >
+            <code
+              class="language-javascript"
+            >
+              npm install next react react
+              <span
+                class="token operator"
+              >
+                -
+              </span>
+              dom
+
+            </code>
+          </pre>
+          <p>
+            Depois de instalado, você pode criar um novo aplicativo Next.js usando o comando create-next-app. Execute o seguinte comando no terminal para criar um novo aplicativo Next.js:
+          </p>
+          <pre
+            class="language-javascript"
+            tabindex="0"
+          >
+            <code
+              class="language-javascript"
+            >
+              npx create
+              <span
+                class="token operator"
+              >
+                -
+              </span>
+              next
+              <span
+                class="token operator"
+              >
+                -
+              </span>
+              app my
+              <span
+                class="token operator"
+              >
+                -
+              </span>
+              app
+
+            </code>
+          </pre>
+          <p>
+            Isso criará um novo aplicativo Next.js em uma pasta chamada my-app. Você pode entrar na pasta e iniciar o servidor de desenvolvimento usando os seguintes comandos:
+          </p>
+          <pre
+            class="language-javascript"
+            tabindex="0"
+          >
+            <code
+              class="language-javascript"
+            >
+              cd my
+              <span
+                class="token operator"
+              >
+                -
+              </span>
+              app
+npm run dev
+
+            </code>
+          </pre>
+          <h2>
+            Páginas estáticas e dinâmicas
+          </h2>
+          <p>
+            O Next.js oferece suporte a dois tipos de páginas: páginas estáticas e páginas dinâmicas.
+          </p>
+          <hr />
+          <figure
+            class="image image-style-side"
           >
             <img
               alt="next example"
@@ -312,143 +685,158 @@ exports[
               src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/next_ed0a265ac1.jpg"
               srcset="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/thumbnail_next_ed0a265ac1.jpg 245w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/small_next_ed0a265ac1.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/medium_next_ed0a265ac1.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/large_next_ed0a265ac1.jpg 1000w,"
             />
-          </a>
-          <figcaption>
-            Next Js Example
-          </figcaption>
-        </figure>
-        <h2>
-          Como começar com o Next.js
-        </h2>
-        <p>
-          Para começar a usar o 
-          <a
-            href="https://nextjs.org/"
+            <figcaption>
+              Next component
+            </figcaption>
+          </figure>
+          <h3>
+            Páginas estáticas
+          </h3>
+          <p
+            style="margin-left:0px;"
           >
-            Next.js
-          </a>
-          , você precisará instalá-lo. A maneira mais fácil de fazer isso é usando o 
-          <a
-            href="https://nodejs.org/en"
-          >
-            Node.js
-          </a>
-           e o gerenciador de pacotes NPM. Execute o seguinte comando no terminal para instalar o Next.js:
-        </p>
-        <pre>
-          <code
+            As páginas estáticas são páginas que não mudam, independentemente de quem as solicita. Elas são pré-renderizadas no momento da construção e servidas como arquivos HTML estáticos para cada solicitação. Isso pode ajudar a melhorar o desempenho do aplicativo e reduzir o tempo de carregamento.
+          </p>
+          <p>
+            Para criar uma página estática no Next.js, crie um arquivo 
+            <strong>
+              .js
+            </strong>
+             ou 
+            <strong>
+              .tsx
+            </strong>
+             na pasta 
+            <strong>
+              pages
+            </strong>
+            . Por exemplo, para criar uma página estática chamada 
+            <strong>
+              about
+            </strong>
+            , crie um arquivo chamado 
+            <strong>
+              about.js
+            </strong>
+             ou 
+            <strong>
+              about.tsx
+            </strong>
+             na pasta pages. Em seguida, adicione o seguinte código:
+          </p>
+          <p>
+             
+          </p>
+          <pre
             class="language-javascript"
+            tabindex="0"
           >
-            npm install next react react-dom
+            <code
+              class="language-javascript"
+            >
+              <span
+                class="token keyword"
+              >
+                function
+              </span>
+               
+              <span
+                class="token function"
+              >
+                About
+              </span>
+              <span
+                class="token punctuation"
+              >
+                (
+              </span>
+              <span
+                class="token punctuation"
+              >
+                )
+              </span>
+               
+              <span
+                class="token punctuation"
+              >
+                {
+              </span>
+              
+  
+              <span
+                class="token keyword"
+              >
+                return
+              </span>
+               
+              <span
+                class="token operator"
+              >
+                &lt;
+              </span>
+              h1
+              <span
+                class="token operator"
+              >
+                &gt;
+              </span>
+              About
+              <span
+                class="token operator"
+              >
+                &lt;
+              </span>
+              <span
+                class="token operator"
+              >
+                /
+              </span>
+              h1
+              <span
+                class="token operator"
+              >
+                &gt;
+              </span>
+              
 
-          </code>
-        </pre>
-        <p>
-          Depois de instalado, você pode criar um novo aplicativo Next.js usando o comando create-next-app. Execute o seguinte comando no terminal para criar um novo aplicativo Next.js:
-        </p>
-        <pre>
-          <code
-            class="language-javascript"
-          >
-            npx create-next-app my-app
+              <span
+                class="token punctuation"
+              >
+                }
+              </span>
+              
 
-          </code>
-        </pre>
-        <p>
-          Isso criará um novo aplicativo Next.js em uma pasta chamada my-app. Você pode entrar na pasta e iniciar o servidor de desenvolvimento usando os seguintes comandos:
-        </p>
-        <pre>
-          <code
-            class="language-javascript"
-          >
-            cd my-app
-npm run dev
 
-          </code>
-        </pre>
-        <h2>
-          Páginas estáticas e dinâmicas
-        </h2>
-        <p>
-          O Next.js oferece suporte a dois tipos de páginas: páginas estáticas e páginas dinâmicas.
-        </p>
-        <hr />
-        <figure
-          class="image image-style-side"
-        >
-          <img
-            alt="next example"
-            sizes="100vw"
-            src="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/next_ed0a265ac1.jpg"
-            srcset="https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/thumbnail_next_ed0a265ac1.jpg 245w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/small_next_ed0a265ac1.jpg 500w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/medium_next_ed0a265ac1.jpg 750w,https://res.cloudinary.com/dnhsdenji/image/upload/v1679937482/large_next_ed0a265ac1.jpg 1000w,"
-          />
-          <figcaption>
-            Next component
-          </figcaption>
-        </figure>
-        <h3>
-          Páginas estáticas
-        </h3>
-        <p
-          style="margin-left:0px;"
-        >
-          As páginas estáticas são páginas que não mudam, independentemente de quem as solicita. Elas são pré-renderizadas no momento da construção e servidas como arquivos HTML estáticos para cada solicitação. Isso pode ajudar a melhorar o desempenho do aplicativo e reduzir o tempo de carregamento.
-        </p>
-        <p>
-          Para criar uma página estática no Next.js, crie um arquivo 
-          <strong>
-            .js
-          </strong>
-           ou 
-          <strong>
-            .tsx
-          </strong>
-           na pasta 
-          <strong>
-            pages
-          </strong>
-          . Por exemplo, para criar uma página estática chamada 
-          <strong>
-            about
-          </strong>
-          , crie um arquivo chamado 
-          <strong>
-            about.js
-          </strong>
-           ou 
-          <strong>
-            about.tsx
-          </strong>
-           na pasta pages. Em seguida, adicione o seguinte código:
-        </p>
-        <p>
-           
-        </p>
-        <pre>
-          <code
-            class="language-javascript"
-          >
-            function About() {
-  return &lt;h1&gt;About&lt;/h1&gt;
-}
+              <span
+                class="token keyword"
+              >
+                export
+              </span>
+               
+              <span
+                class="token keyword"
+              >
+                default
+              </span>
+               About
 
-export default About
-
-          </code>
-        </pre>
-        <p>
-          Isso criará uma página estática com o título "About".
-        </p>
-        <h3>
-          Páginas dinâmicas
-        </h3>
-        <p>
-          As páginas dinâmicas são páginas que são renderizadas no servidor com base em dados específicos da solicitação. Por exemplo, uma página de perfil de usuário pode ser uma página dinâmica que é renderizada com base no nome de usuário da solicitação.
-        </p>
-        <p>
-          <br />
-           
-        </p>
+            </code>
+          </pre>
+          <p>
+            Isso criará uma página estática com o título "About".
+          </p>
+          <h3>
+            Páginas dinâmicas
+          </h3>
+          <p>
+            As páginas dinâmicas são páginas que são renderizadas no servidor com base em dados específicos da solicitação. Por exemplo, uma página de perfil de usuário pode ser uma página dinâmica que é renderizada com base no nome de usuário da solicitação.
+          </p>
+          <p>
+            <br />
+             
+          </p>
+        </div>
+        ;
       </div>
     </div>
   </article>

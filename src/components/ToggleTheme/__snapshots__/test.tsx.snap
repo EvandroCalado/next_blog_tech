@@ -73,7 +73,7 @@ exports[
   width: 2.1rem;
   left: 0.2rem;
   bottom: 0.2rem;
-  background-color: #000;
+  background-color: #303030;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }

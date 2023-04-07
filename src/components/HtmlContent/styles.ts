@@ -18,18 +18,6 @@ export const Container = styled.div`
       filter: brightness(50%);
     }
 
-    pre {
-      background-color: ${theme.colors.codeBackground};
-      color: ${theme.colors.codeFontColor};
-      padding: ${theme.spacings.medium};
-      font-family: monospace;
-      margin: ${theme.spacings.xxlarge} 0;
-      border-radius: 1rem;
-      width: 100%;
-      overflow-x: auto;
-      font-size: ${theme.font.sizes.small};
-    }
-
     img {
       max-width: 100%;
     }

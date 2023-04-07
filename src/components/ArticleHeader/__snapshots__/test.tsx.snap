@@ -4,7 +4,7 @@ exports[
   `<ArticleHeader /> should render heading, excerpt, cover, img and meta 1`
 ] = `
 .c2 {
-  color: #000;
+  color: #303030;
   line-height: 1.2;
   font-size: 6.4rem;
   font-weight: 900;

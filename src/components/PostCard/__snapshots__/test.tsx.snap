@@ -32,6 +32,7 @@ exports[`<PostCard /> should render match snapshot 1`] = `
 
 .c1 {
   max-width: 100%;
+  aspect-ratio: 16/9;
   -webkit-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
 }

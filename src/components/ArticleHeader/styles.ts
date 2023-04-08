@@ -32,8 +32,6 @@ export const Excerpt = styled.p`
 export const Cover = styled.img`
   ${({ theme }) => css`
     width: 100%;
-    height: 60.3rem;
-    object-fit: cover;
     display: block;
     margin-bottom: ${theme.spacings.medium};
   `}

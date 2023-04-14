@@ -35,6 +35,7 @@ exports[`<Footer /> should render 1`] = `
 .c3 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
+  color: #161B22;
   text-align: center;
   line-height: 1.3rem;
 }

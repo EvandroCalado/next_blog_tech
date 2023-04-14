@@ -22,7 +22,7 @@ export const SearchContainer = styled.div`
     > svg.search-check,
     > svg.search-cancel {
       position: absolute;
-      right: 0;
+      right: 1rem;
       width: 2.4rem;
       height: 2.4rem;
       margin-left: 1rem;
@@ -38,6 +38,7 @@ export const SearchContainer = styled.div`
 export const SearchInput = styled.input`
   ${({ theme }) => css`
     padding: 0.5rem ${theme.spacings.medium};
+    outline: none;
 
     &:disabled {
       outline: 0.1rem solid ${theme.colors.secondary};

@@ -35,6 +35,7 @@ exports[`<HtmlContent /> should match snapshot 1`] = `
 .c1 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
+  color: #161B22;
   text-align: center;
   line-height: 1.3rem;
 }

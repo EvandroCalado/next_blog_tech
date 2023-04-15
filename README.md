@@ -2,15 +2,14 @@
 
 
 <h1 align="center"> 🖥️ Blog Tech </h1>
-<h3 align="center"><a href="https://next-blog-tech.vercel.app/" target="_blank" > 🚀 Click aqui para acessar </a></h3>
+<h3 align="center"><a href="https://next-blog-tech.vercel.app/" target="_blank" > 🚀 Click aqui para acessar o projeto </a></h3>
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 <p align="center">
   <a href="#Introdução"> 🧩 Introdução </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Resultados"> 🚀 Resultados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Dependências"> 🧪 Dependências</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Ideias">💡 Possíveis Melhorias </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Testes">💡 Testes </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Creditos"> 🏆 Créditos </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -23,15 +22,29 @@
 
   ⭐ Olá!
 
-Estou muito animado em compartilhar com você a nossa nova landing page criada com as tecnologias mais modernas do mercado! Como desenvolvedor, eu escolhi usar Next.js, Typescript, Styled Components, Storybook, Jest e Husky para criar uma página única e incrível para você.
+Este projeto de blog foi construído utilizando tecnologias modernas e avançadas, como Next.js, TypeScript, Storybook, Styled Components, Jest, Husky, Prism, ESLint, Prettier e um backend feito no Strapi.
 
-Com o Next.js, consegui criar uma página rápida e dinâmica, com uma experiência de usuário mais fluida. Além disso, o Typescript nos permitiu escrever um código mais seguro e escalável, garantindo a integridade da página. Usando o Styled Components, pude criar um design moderno e personalizado, com um código mais fácil de gerenciar e modificar.
+O Next.js foi utilizado para criar a estrutura do projeto, incluindo roteamento, renderização no servidor e geração estática de páginas. Isso significa que o blog é rápido e escalável, além de ser facilmente indexado por mecanismos de busca.
 
-Eu também usei o Jest para testes automatizados, garantindo que a página seja entregue sem erros e bugs, e o Storybook para visualizar os componentes de forma isolada e garantir que cada parte da página funcione perfeitamente.
+O TypeScript foi utilizado para adicionar tipagem estática ao JavaScript, o que torna o código mais seguro, fácil de entender e manter.
 
-Para manter o nosso código organizado e limpo, utilizei o Husky para garantir que todos os nossos commits atendam aos padrões definidos e que o código seja sempre entregue com a melhor qualidade possível.
+O Storybook foi utilizado para desenvolver e testar os componentes do blog. Isso permitiu criar componentes isolados, reutilizáveis e altamente testáveis.
 
-Espero que você goste da nossa landing page tanto quanto eu gostei de criá-la! Eu trabalhei duro para trazer a melhor experiência possível para você, então sinta-se à vontade para explorar e experimentar essas tecnologias incríveis.
+O Styled Components foi utilizado para estilizar os componentes do blog de forma modular e fácil de manter. Isso permitiu criar estilos personalizados para cada componente, garantindo um design coeso e consistente.
+
+O Jest foi utilizado para criar testes unitários, garantindo que cada componente e funcionalidade do blog funcionasse corretamente e livre de bugs.
+
+O Husky foi utilizado para executar scripts automaticamente antes de cada commit, o que ajudou a manter a qualidade do código e evitar erros comuns.
+
+O Prism foi utilizado para destacar a sintaxe do código, tornando-o mais fácil de ler e entender.
+
+O ESLint foi utilizado para analisar o código e garantir que ele seguisse as melhores práticas e padrões de código.
+
+O Prettier foi utilizado para formatar o código de forma consistente, garantindo que todos os desenvolvedores do projeto estivessem escrevendo código da mesma maneira.
+
+O backend do projeto foi construído utilizando o Strapi, um CMS de código aberto que permite criar e gerenciar conteúdo. Isso significa que o blog pode ser facilmente atualizado e mantido por meio de uma interface intuitiva.
+
+Em conjunto, essas tecnologias criaram um projeto de blog moderno, rápido, escalável, fácil de manter e de alta qualidade, com um backend robusto e seguro construído no Strapi.
 
 Atenciosamente,
 
@@ -59,9 +72,9 @@ Evandro Calado - Desenvolvedor frotend.
 
 ### 💻 Desktop 
   
- ⭐ Home | ⭐ Gallery | ⭐ Contact |
+ ⭐ Home | ⭐ Home Dark | ⭐ Post |
 |---|---|---|
-![Desktop 1](https://user-images.githubusercontent.com/110628201/227028076-e3f0c396-f308-4aee-b8f2-c3b4f5236d96.png) | ![Desktop 2](https://user-images.githubusercontent.com/110628201/227028194-d288be70-c021-4a1e-983c-2bc7793e5028.png) | ![Desktop 3](https://user-images.githubusercontent.com/110628201/227028240-91d9835c-54b7-4191-bb9b-11b23c0a96e2.png)
+![Captura de tela de 2023-04-15 11-19-21](https://user-images.githubusercontent.com/110628201/232250405-20ce512d-969d-42bd-af73-5f54196c137d.png) | ![Captura de tela de 2023-04-15 11-19-30](https://user-images.githubusercontent.com/110628201/232250470-9137916a-8e3e-41a7-b298-123db851e885.png) | ![Captura de tela de 2023-04-15 11-19-44](https://user-images.githubusercontent.com/110628201/232250481-e8aa0dc0-945a-45b9-b09d-e461a7b0f5bd.png)
 
 <br/>
 
@@ -81,11 +94,11 @@ Evandro Calado - Desenvolvedor frotend.
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook",
     "deploy-static": "npm run build && npm run export",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "jest",
     "lint": "eslint src --max-warnings=0",
     "lint-staged": "lint-staged",
     "prepare": "husky install"
-  }
+  },
 
 ```
 
@@ -94,20 +107,23 @@ Evandro Calado - Desenvolvedor frotend.
 ```JSON
   "dependencies": {
     "@styled-icons/material-outlined": "^10.47.0",
+    "disqus-react": "^1.1.5",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.2.0",
     "next": "13.2.4",
-    "prop-types": "^15.8.1",
+    "prismjs": "^1.29.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^6.9.0",
     "styled-components": "^5.3.9"
-  }
+  },
 
 ```
 
 ## `📖 devDependencies` 
 
 ```JSON
-      "devDependencies": {
+   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
@@ -120,6 +136,7 @@ Evandro Calado - Desenvolvedor frotend.
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/node": "^18.15.3",
+    "@types/prismjs": "^1.26.0",
     "@types/react": "^18.0.28",
     "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
@@ -141,12 +158,18 @@ Evandro Calado - Desenvolvedor frotend.
     "prettier": "^2.8.4",
     "ts-jest": "^29.0.5",
     "typescript": "^5.0.2"
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "npm run lint -- --fix",
+      "npm test -- --findRelatedTests --passWithNoTests --bail"
+    ]
   }
 
 ```
 <br />
 
-<a id="Ideias"></a>
+<a id="Testes"></a>
 ## 💡 Testes
 
 <br />
@@ -157,7 +180,8 @@ Evandro Calado - Desenvolvedor frotend.
 
 ⭐ Jest |
 |---|
-|  ![Coverage](https://user-images.githubusercontent.com/110628201/227054347-77d72e10-39da-470d-8569-5399e389f6b2.png)
+|  ![Captura de tela de 2023-04-15 16-53-10](https://user-images.githubusercontent.com/110628201/232250629-5f9cd7e8-aa27-4919-82f3-9155c343f42e.png)
+
 
 <br /> 
 
@@ -168,7 +192,7 @@ Evandro Calado - Desenvolvedor frotend.
 
 <div > 
 
-| [<img src="https://user-images.githubusercontent.com/110628201/227955313-b9f72ab7-24b3-41a1-ab4e-3969a6a73d42.png" width=300><br><sub> Evandro Calado </sub>](https://www.linkedin.com/in/evandro-calado/) | ***Hello 😃 Se você chegou até aqui, acredito que gostou do meu projeto, nesse caso temos algo em comum, sendo assim que tal conversamos um pouco? Meu chama no linkedin 😁*** | 
+| [<img src="https://user-images.githubusercontent.com/110628201/227955313-b9f72ab7-24b3-41a1-ab4e-3969a6a73d42.png" width=300><br><sub> Evandro Calado </sub>](https://www.linkedin.com/in/evandro-calado/) | ***Olá 😃 Se você chegou até aqui, acredito que gostou do meu projeto, nesse caso temos algo em comum, sendo assim que tal conversamos um pouco? Meu chama no linkedin 😁*** | 
 |---|---|
 
 

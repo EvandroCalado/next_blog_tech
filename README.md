@@ -1,5 +1,8 @@
-<h1 align="center"> 🖥️ Landing Page </h1>
-<h3 align="center"><a href="https://landing-pages-next.vercel.app" target="_blank" > 🚀 Click aqui para acessar </a></h3>
+![Captura de tela de 2023-04-15 11-19-21](https://user-images.githubusercontent.com/110628201/232235477-88f36798-8396-433e-ba19-6b0d3997551c.png)
+
+
+<h1 align="center"> 🖥️ Blog Tech </h1>
+<h3 align="center"><a href="https://next-blog-tech.vercel.app/" target="_blank" > 🚀 Click aqui para acessar </a></h3>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -47,9 +50,10 @@ Evandro Calado - Desenvolvedor frotend.
 
 ### 📱 Mobile 
 
-⭐ Home | ⭐ Section | ⭐ Menu | ⭐ Menu on Hover |
+⭐ Home | ⭐ Home Dark | ⭐ Post | ⭐ Menu |
 |---|---|---|---|
-![Tela 1](https://user-images.githubusercontent.com/110628201/227029240-929baa95-567f-4e69-b25a-54c4e8f840e6.png) | ![Tela 2](https://user-images.githubusercontent.com/110628201/227029294-1dc7c1f1-3d39-4132-8063-85357e309bbd.png) | ![Tela 3](https://user-images.githubusercontent.com/110628201/227029334-f4b2d708-e541-4157-8f16-9ca1dd9e70f3.png) | ![Tela 4](https://user-images.githubusercontent.com/110628201/227029356-4ccbef30-f4d2-4038-bfeb-9dfd7f93e0b8.png)
+![Tela 1](https://user-images.githubusercontent.com/110628201/232230794-bd9c472f-f7f3-451c-9897-32b611105df3.png) | ![Tela 2](https://user-images.githubusercontent.com/110628201/232230842-dd8dad9b-f5fb-4b44-a39e-080cac3c4f51.png) | ![Captura de tela de 2023-04-15 11-13-46](https://user-images.githubusercontent.com/110628201/232233875-759afc64-fb00-4a16-a722-868045ec391c.png) | ![Captura de tela de 2023-04-15 11-17-03](https://user-images.githubusercontent.com/110628201/232235434-ee386f40-0764-46a0-b02f-ac6100d47386.png)
+
   
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
